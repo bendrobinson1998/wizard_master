@@ -6,16 +6,18 @@
   height: 100vh !important;
   margin: 0;
   padding: 0;
+  
 }
 
 body{
-  background-color: #000000 !important;
-  color: white !important;
+
   position: fixed;
 }
-
+.particles-background {
+  z-index: -1 !important;
+}
 .button-primary{
-  background-color: purple !important;
+  background-color: #960696 !important;
 }
 
 .mint-option {color: black !important}

@@ -9,10 +9,11 @@ import { useFrame } from '@react-three/fiber'
 export default function Model(props) {
   
 
-  useFrame(({ clock }) => {
+   useFrame(({ clock }) => {
     const a = clock.getElapsedTime();  
     group.current.rotation.y = a / 2;
-  });
+  }); 
+  
   const group = useRef()
   const { nodes, materials } = useGLTF('/wiz_master.glb')
   return (
