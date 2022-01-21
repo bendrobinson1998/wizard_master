@@ -64,10 +64,10 @@ function App() {
       },
       particles: {
         color: {
-          value: "#ffffff",
+          value: "#6b46c1",
         },
         links: {
-          color: "#ffffff",
+          color: "#6b46c1",
           distance: 150,
           enable: true,
           opacity: 0.5,
@@ -81,7 +81,7 @@ function App() {
           enable: true,
           outMode: "bounce",
           random: false,
-          speed: 6,
+          speed: 3,
           straight: false,
         },
         number: {

@@ -14,9 +14,9 @@ export default function WizScene() {
   <Box
     m="auto"
     mt={['40px', '0px', '-20px']}
-    mb={['-60px', '-190px', '-260px']}
-    w={[280, 480, 640]}
-    h={[280, 480, 640]}
+    mb={['-160px', '-190px', '-260px']}
+    w={[375, 480, 640]}
+    h={[375, 480, 640]}
     position="relative"
   >
       <Canvas camera={{ fov: 15, position: [-30, 25, 20]}} >
