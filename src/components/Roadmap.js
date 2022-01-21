@@ -12,7 +12,8 @@ import {
 export default function Roadmap() {
   return (
     <Flex
-      p={10}
+      px={10}
+      pb={10}
       w="full"
       justifyContent="center"
       alignItems="center"

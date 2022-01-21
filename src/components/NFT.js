@@ -4,7 +4,7 @@ import { chakra, Box, Flex, useColorModeValue, Button } from "@chakra-ui/react";
 const NFT = () => {
   return (
     <Flex
-      pb={25}
+      
       pt={50}
       px={50}
       w="full"
