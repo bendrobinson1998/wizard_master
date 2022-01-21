@@ -41,7 +41,8 @@ const Hero = () => {
                   alignSelf={'center'}
                   position={'relative'}>
                   <Button
-                    colorScheme={'purple'}
+                    
+                    color={'white'}
                     bg={'purple.600'}
                     rounded={'full'}
                     px={6}
