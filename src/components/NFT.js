@@ -50,15 +50,17 @@ const NFT = () => {
           </chakra.p>
 
           <Box mt={8}>
-          <Button
-                    
-                    color={'white'}
-                    bg={'purple.600'}
-                    rounded={'lg'}
-                    px={6}
-                    _hover={{
-                      bg: 'purple.700',
-                    }}>Start Now </Button>
+            <Button
+              color={"white"}
+              bg={"purple.600"}
+              rounded={"lg"}
+              px={6}
+              _hover={{
+                bg: "purple.700",
+              }}
+            >
+              Start Now{" "}
+            </Button>
           </Box>
         </Box>
       </Box>
