@@ -1,12 +1,12 @@
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Environment, OrbitControls, Html, useProgress } from '@react-three/drei'
-import { Box } from '@chakra-ui/react'
+import { Box, Text } from '@chakra-ui/react'
 import WizLoader from './WizLoader'
 
 function Loader() {
   const { progress } = useProgress()
-  return( <Html center>{progress}% loaded</Html>)
+  return( <Html center><Text>{progress}% loaded</Text></Html>)
 }
 
 export default function WizScene() {

@@ -44,7 +44,7 @@ const Hero = () => {
                     
                     color={'white'}
                     bg={'purple.600'}
-                    rounded={'full'}
+                    rounded={'lg'}
                     px={6}
                     _hover={{
                       bg: 'purple.700',
