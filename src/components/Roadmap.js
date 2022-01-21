@@ -13,7 +13,7 @@ export default function Roadmap() {
   return (
     <Flex
      
-      p={20}
+      p={10}
       w="full"
       justifyContent="center"
       alignItems="center"
