@@ -1,7 +1,7 @@
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Environment, OrbitControls, Html, useProgress } from '@react-three/drei'
-import { Box, Progress } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 import WizLoader from './WizLoader'
 
 function Loader() {
