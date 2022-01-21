@@ -1,7 +1,7 @@
 
 import React from 'react'
 import HomePage from './pages/Home'
-
+import Particles from 'react-tsparticles';
 import {
   BrowserRouter,
   Routes,
@@ -10,7 +10,7 @@ import {
 import Mint from './pages/Mint';
 
 function App() {
-  /* const particlesInit = (main) => {
+   const particlesInit = (main) => {
     console.log(main);
 
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
@@ -18,9 +18,9 @@ function App() {
 
   const particlesLoaded = (container) => {
     console.log(container);
-  }; */
+  }; 
   return (<>
- {/*  <div style={{position: 'absolute'}}>
+   <div style={{position: 'absolute'}}>
     <Particles
     id="tsparticles"
     className='particles-background'
@@ -89,7 +89,7 @@ function App() {
             enable: true,
             area: 800,
           },
-          value: 80,
+          value: 40,
         },
         opacity: {
           value: 0.5,
@@ -104,7 +104,7 @@ function App() {
       },
       detectRetina: true,
     }}
-  /></div>*/}
+  /></div>
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<HomePage />} />
