@@ -23,7 +23,7 @@ export default function WizScene() {
         <Suspense fallback={<Loader />}>
           <WizLoader />
           <OrbitControls enablePan={false} enableZoom={false}  />
-<Environment preset="sunset" />
+<Environment preset="city" />
         </Suspense>
       </Canvas>
   </Box>

@@ -9,8 +9,12 @@ import {
 } from "react-router-dom";
 import Mint from './pages/Mint';
 
+
 function App() {
-   const particlesInit = (main) => {
+  
+ 
+  
+  const particlesInit = (main) => {
     console.log(main);
 
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
@@ -19,6 +23,7 @@ function App() {
   const particlesLoaded = (container) => {
     console.log(container);
   }; 
+
   return (<>
    <div style={{position: 'absolute'}}>
     <Particles
@@ -64,10 +69,10 @@ function App() {
       },
       particles: {
         color: {
-          value: "#6b46c1",
+          value: '#6b46c1',
         },
         links: {
-          color: "#6b46c1",
+          color: '#6b46c1',
           distance: 150,
           enable: true,
           opacity: 0.5,
