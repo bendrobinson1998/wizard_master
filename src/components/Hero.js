@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <>
       <Container maxW={"3xl"}>
-        <WizScene />
+        <WizScene dpr={1} />
         <Stack
           className="hero-section"
           as={Box}
