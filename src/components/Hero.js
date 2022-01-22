@@ -19,12 +19,7 @@ const Hero = () => {
   return (
     <>
       <Flex px={25} w="full" alignItems="center" justifyContent="center">
-        <Box
-          shadow="xl"
-          bg={useColorModeValue("white", "gray.800")}
-          px={50}
-          mx="auto"
-        >
+        <Box shadow="xl" bg={useColorModeValue("white", "gray.800")} mx="auto">
           <WizScene dpr={1} />
 
           <Stack
@@ -46,7 +41,7 @@ const Hero = () => {
                 You've Been Waiting For
               </Text>
             </Heading>
-            <Text color={"white.500"}>
+            <Text color={"white.500"} px={8}>
               Earn daily $KADABRA coins, gain early access to our NFT portfolio
               tracker, exclusive access to our Sandbox metaverse and more...
             </Text>
