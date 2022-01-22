@@ -37,7 +37,7 @@ const NFT = () => {
             color={useColorModeValue("gray.800", "white")}
             fontWeight="bold"
           >
-            Build Your New{" "}
+            1,000 Animated Genesis Mages{" "}
             <chakra.span color={useColorModeValue("brand.600", "brand.400")}>
               Idea
             </chakra.span>
