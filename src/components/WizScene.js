@@ -22,7 +22,6 @@ export default function WizScene() {
   return (
     <Box
       m="auto"
-      mt={["40px", "0px", "-20px"]}
       mb={["-160px", "-190px", "-260px"]}
       w={[375, 480, 640]}
       h={[375, 480, 640]}
