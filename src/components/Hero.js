@@ -20,6 +20,7 @@ const Hero = () => {
       <Container maxW={"3xl"}>
         <WizScene />
         <Stack
+          className="hero-section"
           as={Box}
           textAlign={"center"}
           spacing={{ base: 8, md: 14 }}
