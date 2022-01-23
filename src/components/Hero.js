@@ -19,7 +19,6 @@ const Hero = () => {
     <>
       <Container maxW={"3xl"}>
         <WizScene dpr={1} />
-
         <Stack
           className="hero-section"
           as={Box}
@@ -65,7 +64,6 @@ const Hero = () => {
               Learn more
             </Button>
           </Stack>
-
           <Stack
             direction={"row"}
             spacing={3}

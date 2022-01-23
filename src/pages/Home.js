@@ -3,7 +3,7 @@ import React from "react";
 import Hero from "../components/Hero";
 
 import Navbar from "../components/Navbar";
-import NFT from "../components/NFT";
+import Legendary from "../components/Legendary";
 import Roadmap from "../components/Roadmap";
 
 export default function HomePage() {
@@ -12,7 +12,7 @@ export default function HomePage() {
       <Navbar />
 
       <Hero />
-      <NFT />
+      <Legendary />
       <Roadmap />
     </>
   );
