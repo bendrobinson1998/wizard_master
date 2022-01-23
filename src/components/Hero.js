@@ -17,7 +17,7 @@ import sandbox_logo from "../images/sandbox_logo.png";
 const Hero = () => {
   return (
     <>
-      <Container alignItems="center" justifyContent="center">
+      <Container maxW={"3xl"}>
         <WizScene dpr={1} />
 
         <Stack
