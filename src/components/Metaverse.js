@@ -7,7 +7,6 @@ import {
   Badge,
   SimpleGrid,
   Button,
-  Image,
 } from "@chakra-ui/react";
 import WizScene from "./WizScene";
 
@@ -80,8 +79,7 @@ const Metaverse = () => {
         </Button>
       </Flex>
       <Box>
-        <WizScene
-         />
+        <WizScene />
       </Box>
     </SimpleGrid>
   );
