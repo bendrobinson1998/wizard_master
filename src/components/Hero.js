@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 import opensea_logo from "../images/opensea_logo.png";
 import React from "react";
-import WizScene from "../components/WizScene";
+import Particle from "../components/Particles";
 import eth_logo from "../images/eth_logo.jpg";
 import react_logo from "../images/react_logo.jpg";
 import sandbox_logo from "../images/sandbox_logo.png";
@@ -18,7 +18,6 @@ const Hero = () => {
   return (
     <>
       <Container maxW={"3xl"}>
-        <WizScene dpr={1} />
         <Stack
           className="hero-section"
           as={Box}
@@ -27,6 +26,7 @@ const Hero = () => {
           pb={{ base: 20, md: 36 }}
           pt={{ base: 10, md: 26 }}
         >
+          <Particle />
           <Heading
             fontWeight={600}
             fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}

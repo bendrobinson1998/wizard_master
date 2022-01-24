@@ -14,7 +14,8 @@ body {
   position: fixed;
 }
 .particles-background {
-  z-index: -1 !important;
+  height: 350px;
+  margin-left: 20px !important;
 }
 .button-primary {
   background-color: #960696 !important;
