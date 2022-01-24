@@ -22,10 +22,10 @@ export default function WizScene() {
       h={[375, 480, 640]}
       position="relative"
     >
-      <Canvas camera={{ fov: 15, position: [-30, 25, 20] }}>
+      <Canvas camera={{ fov: 50, position: [-6, 6, 12] }}>
         <Suspense fallback={<Loader />}>
           <WizLoader />
-          <OrbitControls enablePan={false} enableZoom={false}  />
+          <OrbitControls enablePan={false} enableZoom={false} />
           <directionalLight position={[10, 10, 5]} intensity={1} />
           <directionalLight position={[-10, -10, -5]} intensity={1} />
         </Suspense>
