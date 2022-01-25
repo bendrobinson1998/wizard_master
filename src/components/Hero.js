@@ -46,6 +46,7 @@ const Hero = () => {
               <Icon
                 w={9}
                 h={9}
+                px={1}
                 as={BsChevronDoubleDown}
                 id="hero-button"
                 color={"white"}
