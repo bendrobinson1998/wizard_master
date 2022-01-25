@@ -8,6 +8,7 @@ body,
   height: 100vh !important;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,4 +30,5 @@ body {
 
 #hero-button {
   transform: translate(0, 20vh);
+  cursor: pointer;
 }

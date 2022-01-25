@@ -10,7 +10,14 @@ import {
 
 export default function Legendary() {
   return (
-    <Flex px={5} py={10} w="full" justifyContent="center" alignItems="center">
+    <Flex
+      px={5}
+      py={10}
+      w="full"
+      justifyContent="center"
+      alignItems="center"
+      id="legendary-start"
+    >
       <Box bg={useColorModeValue("white", "gray.800")} px={8} py={20} mx="auto">
         <SimpleGrid
           alignItems="start"

@@ -2,9 +2,7 @@ import React from "react";
 import {
   chakra,
   Box,
-  
   Flex,
- 
   Button,
   Stack,
   Icon,
@@ -44,13 +42,15 @@ const Hero = () => {
             >
               Start project
             </Button>
-            <Icon
-              w={9}
-              h={9}
-              as={BsChevronDoubleDown}
-              id="hero-button"
-              color={"white"}
-            />
+            <a href="#legendary-start">
+              <Icon
+                w={9}
+                h={9}
+                as={BsChevronDoubleDown}
+                id="hero-button"
+                color={"white"}
+              />
+            </a>
           </Stack>
         </Flex>
       </Box>
