@@ -1,6 +1,5 @@
 import React from "react";
 import HomePage from "./pages/Home";
-// import Particles from "react-tsparticles";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Mint from "./pages/Mint";
 

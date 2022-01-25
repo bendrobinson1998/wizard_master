@@ -1,6 +1,11 @@
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Html, useProgress } from "@react-three/drei";
+import {
+  OrbitControls,
+  Html,
+  useProgress,
+  Environment,
+} from "@react-three/drei";
 import { Box, Text } from "@chakra-ui/react";
 import WizLoader from "./WizLoader";
 
@@ -26,8 +31,7 @@ export default function WizScene() {
         <Suspense fallback={<Loader />}>
           <WizLoader />
           <OrbitControls enablePan={false} enableZoom={false} />
-          <directionalLight position={[10, 10, 5]} intensity={1} />
-          <directionalLight position={[-10, -10, -5]} intensity={1} />
+          <Environment preset="city" />
         </Suspense>
       </Canvas>
     </Box>

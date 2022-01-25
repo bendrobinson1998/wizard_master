@@ -13,9 +13,7 @@ body,
 body {
   position: fixed;
 }
-.particles-background {
-  margin-left: 20px !important;
-}
+
 .button-primary {
   background-color: #960696 !important;
 }
@@ -24,7 +22,11 @@ body {
   color: black !important;
 }
 
-.hero-section {
-  position: relative;
-  z-index: 999;
+#hero {
+  z-index: 2147483647 !important;
+  position: relative !important;
+}
+
+#hero-button {
+  transform: translate(0, 20vh);
 }

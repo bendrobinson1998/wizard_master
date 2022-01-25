@@ -1,104 +1,60 @@
+import React from "react";
 import {
+  chakra,
   Box,
-  Heading,
-  Text,
+  
+  Flex,
+ 
   Button,
   Stack,
+  Icon,
   Image,
-  Container,
 } from "@chakra-ui/react";
-import opensea_logo from "../images/opensea_logo.png";
-import React from "react";
-import eth_logo from "../images/eth_logo.jpg";
-import react_logo from "../images/react_logo.jpg";
-import sandbox_logo from "../images/sandbox_logo.png";
-import WizScene from "./WizScene";
+import Navbar from "./Navbar";
+import { BsChevronDoubleDown } from "react-icons/bs";
+import logotest from "../images/logo-test.png";
 
 const Hero = () => {
   return (
-    <>
-      <Container maxW={"3xl"}>
-        <WizScene />
-        <Stack
-          className="hero-section"
-          as={Box}
-          textAlign={"center"}
-          spacing={{ base: 8, md: 14 }}
-          pb={{ base: 20, md: 36 }}
-          pt={{ base: 10, md: 26 }}
+    <chakra.header>
+      <Box
+        w="full"
+        h="100vh"
+        backgroundImage="url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)"
+        bgPos="center"
+        bgSize="cover"
+        id="hero"
+      >
+        <Navbar />
+        <Flex
+          align="center"
+          pos="relative"
+          justify="center"
+          boxSize="full"
+          opacity={1}
         >
-          <Heading
-            fontWeight={600}
-            fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
-            lineHeight={"110%"}
-          >
-            The NFT Drop
-            <br />
-            <Text as={"span"} color={"purple.600"}>
-              You've Been Waiting For
-            </Text>
-          </Heading>
-          <Text color={"white.500"} px={8}>
-            Earn daily $KADABRA coins, gain early access to our NFT portfolio
-            tracker, exclusive access to our Sandbox metaverse and more...
-          </Text>
-          <Stack
-            direction={"column"}
-            spacing={3}
-            align={"center"}
-            alignSelf={"center"}
-            position={"relative"}
-          >
+          <Stack mt={-20} textAlign="center" alignItems="center" spacing={6}>
+            <Image src={logotest} w="700px" alt="Mystic Mages Logo"></Image>
+
             <Button
-              color={"white"}
-              bg={"purple.600"}
-              rounded={"lg"}
-              px={6}
-              _hover={{
-                bg: "purple.700",
-              }}
+              colorScheme="brand"
+              textTransform="uppercase"
+              w="fit-content"
+              class="px-4 py-2 mt-4 text-sm font-medium text-white uppercase transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
             >
-              Get Started
+              Start project
             </Button>
-            <Button variant={"link"} colorScheme={"gold"} size={"sm"}>
-              Learn more
-            </Button>
-          </Stack>
-          <Stack
-            direction={"row"}
-            spacing={3}
-            align={"center"}
-            alignSelf={"center"}
-            position={"relative"}
-          >
-            <Image
-              borderRadius="full"
-              boxSize="35px"
-              src={opensea_logo}
-              alt="Opensea Logo"
-            />
-            <Image
-              borderRadius="full"
-              boxSize="35px"
-              src={eth_logo}
-              alt="Ethereum Logo"
-            />
-            <Image
-              borderRadius="full"
-              boxSize="35px"
-              src={sandbox_logo}
-              alt="Sandbox Logo"
-            />
-            <Image
-              borderRadius="full"
-              boxSize="35px"
-              src={react_logo}
-              alt="Dan Abramov"
+            <Icon
+              w={9}
+              h={9}
+              as={BsChevronDoubleDown}
+              id="hero-button"
+              color={"white"}
             />
           </Stack>
-        </Stack>
-      </Container>
-    </>
+        </Flex>
+      </Box>
+    </chakra.header>
   );
 };
 
