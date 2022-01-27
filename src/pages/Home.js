@@ -1,7 +1,6 @@
 import React from "react";
 
 import Hero from "../components/Hero";
-import Particle from "../components/Particles";
 
 import Legendary from "../components/Legendary";
 import Roadmap from "../components/Roadmap";
@@ -16,7 +15,6 @@ export default function HomePage() {
       <Metaverse />
       <Roadmap />
       <Token />
-      <Particle />
     </>
   );
 }
