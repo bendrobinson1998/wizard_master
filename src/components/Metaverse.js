@@ -14,6 +14,7 @@ const Metaverse = () => {
   return (
     <SimpleGrid
       columns={{ base: 1, md: 2 }}
+      px={5}
       spacing={0}
       _after={{
         bg: "brand.500",

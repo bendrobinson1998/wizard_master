@@ -32,7 +32,7 @@ const Hero = () => {
           opacity={1}
         >
           <Stack mt={-20} textAlign="center" alignItems="center" spacing={6}>
-            <Image src={logotest} w="700px" alt="Mystic Mages Logo"></Image>
+            <Image px={8} src={logotest} w="700px" alt="Mystic Mages Logo"></Image>
 
             <Button
               colorScheme="brand"

@@ -50,6 +50,7 @@ export default function Roadmap() {
   return (
     <Flex w="auto" justifyContent="center" alignItems="center">
       <Box
+        px={5}
         mt={20}
         py={12}
         bg={useColorModeValue("white", "gray.800")}
