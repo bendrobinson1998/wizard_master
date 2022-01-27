@@ -1,7 +1,7 @@
 import {
   Button,
   VStack,
-  StackDivider,
+  
   Box,
   Heading,
   Select,
@@ -12,11 +12,7 @@ import React from "react";
 export default function Mint() {
   return (
     <>
-      <VStack
-        divider={<StackDivider borderColor="gray.200" />}
-        spacing={4}
-        align="center"
-      >
+      <VStack spacing={10} align="center" mt={10}>
         <Box h="40px">
           <Heading>Hello Mint Page</Heading>
         </Box>
@@ -46,7 +42,7 @@ export default function Mint() {
         </Box>
         <Box h="40px">
           <Button className="button-primary">Connect Wallet</Button>
-          <Button className="button-primary">Mint*</Button>
+          <Button className="button-primary" ml={5}>Mint*</Button>
         </Box>
         <Text mx={10} className="terms">
           *Terms and Conditions: You Own Your NFT: By connecting your Ethereum

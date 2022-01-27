@@ -41,4 +41,5 @@ body {
   font-size: xx-small;
   opacity: 0.5;
   transform: translate(0, 50vh);
+  margin-top: -25px !important;
 }
