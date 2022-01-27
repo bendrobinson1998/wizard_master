@@ -32,3 +32,7 @@ body {
   transform: translate(0, 20vh);
   cursor: pointer;
 }
+
+.voxel-scene {
+z-index: 999;
+}
