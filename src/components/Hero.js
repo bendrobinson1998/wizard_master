@@ -14,6 +14,7 @@ const Hero = () => {
         bgPos="center"
         bgSize="cover"
         id="hero"
+        bg={'transparent'}
       >
         <Navbar />
         <Flex
@@ -29,6 +30,7 @@ const Hero = () => {
               src={wizlogo}
               w="700px"
               alt="Mystic Mages Logo"
+              
             ></Image>
 
             <Text>Discover Mystic Mages</Text>
