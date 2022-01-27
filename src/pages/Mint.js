@@ -48,7 +48,7 @@ export default function Mint() {
           <Button className="button-primary">Connect Wallet</Button>
           <Button className="button-primary">Mint*</Button>
         </Box>
-        <Text className="terms">
+        <Text mx={10} className="terms">
           *Terms and Conditions: You Own Your NFT: By connecting your Ethereum
           wallet and minting a NFT with our smart contract, you gain full and
           complete ownership of your NFT. Limitations of Liability for Gas,

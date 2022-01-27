@@ -38,8 +38,7 @@ body {
 }
 
 .terms {
-  padding: 10;
   font-size: xx-small;
   opacity: 0.5;
-  transform: translate(0, 40vh);
+  transform: translate(0, 50vh);
 }
