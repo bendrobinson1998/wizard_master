@@ -1,12 +1,4 @@
-import {
-  Button,
-  VStack,
-  
-  Box,
-  Heading,
-  Select,
-  Text,
-} from "@chakra-ui/react";
+import { Button, VStack, Box, Heading, Select, Text } from "@chakra-ui/react";
 import React from "react";
 
 export default function Mint() {
@@ -42,7 +34,9 @@ export default function Mint() {
         </Box>
         <Box h="40px">
           <Button className="button-primary">Connect Wallet</Button>
-          <Button className="button-primary" ml={5}>Mint*</Button>
+          <Button className="button-primary" ml={5}>
+            Mint*
+          </Button>
         </Box>
         <Text mx={10} className="terms">
           *Terms and Conditions: You Own Your NFT: By connecting your Ethereum
@@ -59,14 +53,15 @@ export default function Mint() {
           website. You are responsible for any tax liability which may arise
           from minting or reselling your NFT(s). Group Litigation Order Waiver:
           You agree to waive any group litigation status, and any legal dispute
-          around the NFTs project. Children: You agree that you are over the age
-          of 18, or the legal age within your jurisdiction. Arbitration: In the
-          event that a legal dispute arises from anything related to the NFTs
-          project, you agree to bring the case to binding arbitration according
-          to appropriate legal guidelines. Jurisdiction and Choice of Law: You
-          agree that for purposes of any legal dispute, you will be subject to
-          the jurisdiction of the United Kingdom and that any legal proceeding
-          will be brought in the United Kingdom.
+          around the NFTs project. All NFT purchases are non-refundable.
+          Children: You agree that you are over the age of 18, or the legal age
+          within your jurisdiction. Arbitration: In the event that a legal
+          dispute arises from anything related to the NFTs project, you agree to
+          bring the case to binding arbitration according to appropriate legal
+          guidelines. Jurisdiction and Choice of Law: You agree that for
+          purposes of any legal dispute, you will be subject to the jurisdiction
+          of the United Kingdom and that any legal proceeding will be brought in
+          the United Kingdom.
         </Text>
       </VStack>
     </>
