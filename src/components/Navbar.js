@@ -8,11 +8,9 @@ import {
   Icon,
   Link,
   Popover,
-  
   PopoverTrigger,
   PopoverContent,
   useColorModeValue,
- 
   useDisclosure,
 } from "@chakra-ui/react";
 import {
@@ -21,7 +19,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
-import DarkModeToggle from "./DarkModeToggle";
+/* import DarkModeToggle from "./DarkModeToggle"; */
 
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
@@ -54,7 +52,6 @@ export default function Navbar() {
           justify={{ base: "center", md: "start" }}
           id="nav"
         >
-          
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
             <DesktopNav />
           </Flex>
@@ -66,7 +63,7 @@ export default function Navbar() {
           direction={"row"}
           spacing={6}
         >
-          <DarkModeToggle />
+          {/* <DarkModeToggle /> */}
         </Stack>
       </Flex>
 
