@@ -25,7 +25,7 @@ const Hero = () => {
         >
           <Stack mt={-20} textAlign="center" alignItems="center" spacing={6}>
             <Image
-              px={8}
+              px={4}
               src={wizlogo}
               w="700px"
               alt="Mystic Mages Logo"
