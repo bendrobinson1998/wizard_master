@@ -239,12 +239,12 @@ const NAV_ITEMS = [
       {
         label: "Twitter",
         subLabel: "Go follow us on Twitter!",
-        href: "#",
+        href: "https://twitter.com/mysticmagesNFT",
       },
       {
         label: "Discord",
         subLabel: "An exclusive list for contract work",
-        href: "#",
+        href: "https://discord.gg/zZ4v72xm6N",
       },
     ],
   },
