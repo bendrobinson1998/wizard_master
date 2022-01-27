@@ -2,7 +2,7 @@ import React from "react";
 import { chakra, Box, Flex, Stack, Icon, Image, Text } from "@chakra-ui/react";
 import Navbar from "./Navbar";
 import { BsChevronDoubleDown } from "react-icons/bs";
-import logotest from "../images/logo-test.png";
+import wizlogo from "../images/wizlogo.png";
 
 const Hero = () => {
   return (
@@ -26,7 +26,7 @@ const Hero = () => {
           <Stack mt={-20} textAlign="center" alignItems="center" spacing={6}>
             <Image
               px={8}
-              src={logotest}
+              src={wizlogo}
               w="700px"
               alt="Mystic Mages Logo"
             ></Image>

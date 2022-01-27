@@ -8,10 +8,11 @@ import {
   Icon,
   Link,
   Popover,
+  
   PopoverTrigger,
   PopoverContent,
   useColorModeValue,
-  useBreakpointValue,
+ 
   useDisclosure,
 } from "@chakra-ui/react";
 import {
@@ -53,14 +54,7 @@ export default function Navbar() {
           justify={{ base: "center", md: "start" }}
           id="nav"
         >
-          <Text
-            textAlign={useBreakpointValue({ base: "center", md: "left" })}
-            fontFamily={"heading"}
-            color={"white"}
-          >
-            Mystic Mages
-          </Text>
-
+          
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
             <DesktopNav />
           </Flex>
