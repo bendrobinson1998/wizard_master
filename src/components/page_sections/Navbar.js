@@ -49,7 +49,7 @@ export default function Navbar() {
         </Flex>
         <Flex
           flex={{ base: 1 }}
-          justify={{ base: "center", md: "start" }}
+          justify={{ base: "center", md: "center" }}
           id="nav"
         >
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -87,7 +87,7 @@ const DesktopNav = () => {
               <Link
                 p={2}
                 href={navItem.href ?? "#"}
-                fontSize={"sm"}
+                fontSize={"md"}
                 fontWeight={500}
                 color={"white"}
                 _hover={{

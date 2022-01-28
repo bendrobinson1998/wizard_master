@@ -8,7 +8,7 @@ import {
   SimpleGrid,
   Button,
 } from "@chakra-ui/react";
-import WizScene from "./WizScene";
+import WizScene from "../accessories/WizScene";
 
 const Metaverse = () => {
   return (

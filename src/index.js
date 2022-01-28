@@ -4,8 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ColorModeScript, ChakraProvider } from "@chakra-ui/react";
-import theme from "./components/theme";
-import Particle from "./components/Particles";
+import theme from "./components/accessories/theme";
+import Particle from "./components/accessories/Particles";
 ReactDOM.render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
