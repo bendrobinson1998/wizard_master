@@ -43,7 +43,7 @@ export default function Token() {
   };
 
   return (
-    <Flex w="auto" justifyContent="center" alignItems="center"  px={5}>
+    <Flex w="auto" justifyContent="center" alignItems="center" px={5}>
       <Box shadow="xl" px={8} pb={20} mx="auto">
         <SimpleGrid
           alignItems="center"
@@ -58,7 +58,7 @@ export default function Token() {
               fontWeight="bold"
               textAlign={{ base: "center", sm: "left" }}
             >
-              Become a Partner
+              $AMULET Token
             </chakra.h2>
             <chakra.p
               fontSize={{ base: "lg", md: "xl" }}
