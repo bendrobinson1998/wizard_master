@@ -20,12 +20,7 @@ function Loader() {
 
 export default function WizScene() {
   return (
-    <Box
-      className="voxel-scene"
-      w={[375, 480, 640]}
-      h={[375, 480, 640]}
-      position="relative"
-    >
+    <Box w={[375, 480, 640]} h={[375, 480, 640]}>
       <Canvas camera={{ fov: 48, position: [-6, 6, 12] }}>
         <Suspense fallback={<Loader />}>
           <WizLoader />
