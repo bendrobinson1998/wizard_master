@@ -57,9 +57,9 @@ const Metaverse = () => {
         <chakra.p
           pr={{ base: 0, lg: 16 }}
           mb={4}
-          fontSize="sm"
+          fontSize="md"
           color={useColorModeValue("brand.600", "gray.400")}
-          letterSpacing="wider"
+          
         >
           Embark on a Mystic Mage adventure and join us in our exclusive holders
           only metaverse land - Arteria! Your Mystic Mage NFT is your entry
