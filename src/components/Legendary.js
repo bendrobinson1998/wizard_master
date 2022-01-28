@@ -40,7 +40,10 @@ export default function Legendary() {
               mb={5}
               color={useColorModeValue("gray.600", "gray.400")}
             >
-              Mint a Genesis Mystic Mage and reap the rewards of earning passive $AMULET tokens daily. Only the Genesis supply will earn rewards, and only the genesis supply will have access to our sandbox metaverse.
+              Mint a Genesis Mystic Mage and reap the rewards of earning passive
+              $AMULET tokens daily. Only the Genesis supply will earn rewards,
+              and only the genesis supply will have access to our sandbox
+              metaverse.
             </chakra.p>
           </Box>
           <Box m="auto" alignSelf={"center"} justifyContent={"center"}>
@@ -68,9 +71,10 @@ export default function Legendary() {
               mb={5}
               color={useColorModeValue("gray.600", "gray.400")}
             >
-              Love to code? Next to our ready-made and free plugins you can use
-              our expansive yet simple API; decide how you integrate Payments
-              and build advanced and reliable products yourself from scratch.
+              You may be lucky enough to mint an Elite Mage, only 30 have been
+              hand drawn and animated by our talented artist. Each Elite mage
+              will yield 3X the daily amount of $AMULET than a regular genesis
+              mage.
             </chakra.p>
           </Box>
           <Box m="auto" alignSelf={"center"} justifyContent={"center"}>
