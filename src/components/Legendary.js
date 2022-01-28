@@ -4,6 +4,7 @@ import {
   Box,
   chakra,
   Flex,
+  Image,
   SimpleGrid,
   useColorModeValue,
 } from "@chakra-ui/react";
@@ -18,7 +19,7 @@ export default function Legendary() {
       alignItems="center"
       id="legendary-start"
     >
-      <Box  px={8} py={20} mx="auto">
+      <Box px={8} py={20} mx="auto">
         <SimpleGrid
           alignItems="start"
           columns={{ base: 1, md: 2 }}
@@ -32,24 +33,19 @@ export default function Legendary() {
               color={useColorModeValue("gray.800", "white")}
               fontWeight="bold"
             >
-              Clear overview for efficient tracking
+              3900 Genesis Mystic Mages
             </chakra.h2>
             <chakra.p
               mt={4}
               mb={5}
               color={useColorModeValue("gray.600", "gray.400")}
             >
-              Handle your subscriptions and transactions efficiently with the
-              clear overview in Dashboard. Features like the smart search option
-              allow you to quickly find any data you’re looking for.
+              Mint a Genesis Mystic Mage and reap the rewards of earning passive $AMULET tokens daily. Only the Genesis supply will earn rewards, and only the genesis supply will have access to our sandbox metaverse.
             </chakra.p>
           </Box>
-          <Box
-            w="full"
-            h="full"
-            py={48}
-            bg={useColorModeValue("gray.200", "gray.700")}
-          ></Box>
+          <Box m="auto" alignSelf={"center"} justifyContent={"center"}>
+            <Image src="./fire_mage.png" w="250px" alt="Mystic Mages Logo" />
+          </Box>
         </SimpleGrid>
         <SimpleGrid
           alignItems="center"
@@ -65,7 +61,7 @@ export default function Legendary() {
               color={useColorModeValue("gray.800", "white")}
               fontWeight="bold"
             >
-              Decide how you integrate Payments
+              30 Animated Elite Mages
             </chakra.h2>
             <chakra.p
               mt={4}
