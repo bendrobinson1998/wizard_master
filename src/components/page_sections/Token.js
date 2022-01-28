@@ -39,7 +39,7 @@ export default function Token() {
 
   return (
     <Flex p={20} w="auto" justifyContent="center" alignItems="center">
-      <Box shadow="xl" px={8} py={20} mx="auto">
+      <Box shadow="xl" px={8} pb={20} mx="auto">
         <SimpleGrid
           alignItems="center"
           columns={{ base: 1, lg: 2 }}
