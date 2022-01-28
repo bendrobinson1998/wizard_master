@@ -1,8 +1,7 @@
 import React from "react";
-import { chakra, Box, Flex, Stack, Icon, Image, Text } from "@chakra-ui/react";
+import { chakra, Box, Flex, Stack, Icon, Image } from "@chakra-ui/react";
 import Navbar from "./Navbar";
 import { BsChevronDoubleDown } from "react-icons/bs";
-
 
 const Hero = () => {
   return (
@@ -14,7 +13,7 @@ const Hero = () => {
         bgPos="center"
         bgSize="cover"
         id="hero"
-        bg={'transparent'}
+        bg={"transparent"}
       >
         <Navbar />
         <Flex
@@ -27,13 +26,11 @@ const Hero = () => {
           <Stack mt={-20} textAlign="center" alignItems="center" spacing={6}>
             <Image
               px={4}
-              src= './wizlogo.png'
+              src="./wizlogo.png"
               w="700px"
               alt="Mystic Mages Logo"
-              
             ></Image>
 
-            <Text>Discover Mystic Mages</Text>
             <a href="#legendary-start">
               <Icon
                 w={9}
