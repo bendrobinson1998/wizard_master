@@ -22,7 +22,6 @@ export default function WizScene() {
   return (
     <Box
       className="voxel-scene"
-      mb={["-160px", "-190px", "-260px"]}
       w={[375, 480, 640]}
       h={[375, 480, 640]}
       position="relative"
