@@ -49,7 +49,6 @@ const Metaverse = () => {
           mb={6}
           fontSize={{ base: "4xl", md: "4xl", lg: "5xl" }}
           fontWeight="bold"
-          color={useColorModeValue("brand.600", "gray.300")}
           lineHeight="shorter"
         >
           Discover Arteria.
