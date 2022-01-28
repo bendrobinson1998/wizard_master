@@ -61,6 +61,7 @@ function TestmonialCard(props) {
       width={"full"}
       rounded={"xl"}
       p={10}
+      mb={20}
       justifyContent={"space-between"}
       position={"relative"}
       bg={useColorModeValue("white", "gray.800")}
@@ -77,7 +78,7 @@ function TestmonialCard(props) {
         backgroundSize: "cover",
         top: 0,
         left: 0,
-        backgroundImage: backgrounds[finalnum % 4],
+        backgroundImage: backgrounds[index % 4],
       }}
     >
       <Flex direction={"column"} textAlign={"left"} justifyContent={"center"}>
