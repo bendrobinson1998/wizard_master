@@ -43,7 +43,7 @@ export default function Token() {
   };
 
   return (
-    <Flex p={20} w="auto" justifyContent="center" alignItems="center">
+    <Flex w="auto" justifyContent="center" alignItems="center">
       <Box shadow="xl" px={8} pb={20} mx="auto">
         <SimpleGrid
           alignItems="center"
@@ -68,23 +68,25 @@ export default function Token() {
               Let's put our heads together to build a successful partnership to
               benefit both your customers and your business.
             </chakra.p>
-            <Image
-              src="./amulet_potion.png"
-              alt="Amulet Token Potion Graphic"
-              h={150}
-              my={10}
-            />
-            <Button
-              color={"white"}
-              bg={"purple.600"}
-              rounded={"lg"}
-              px={6}
-              _hover={{
-                bg: "purple.700",
-              }}
-            >
-              Become a Partner
-            </Button>
+            <div textAlign={{ base: "center", sm: "left" }}>
+              <Image
+                src="./amulet_potion.png"
+                alt="Amulet Token Potion Graphic"
+                h={150}
+                my={10}
+              />
+              <Button
+                color={"white"}
+                bg={"purple.600"}
+                rounded={"lg"}
+                px={6}
+                _hover={{
+                  bg: "purple.700",
+                }}
+              >
+                Become a Partner
+              </Button>
+            </div>
           </Box>
           <VStack
             direction="column"
