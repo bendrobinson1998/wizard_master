@@ -79,7 +79,7 @@ const Metaverse = () => {
           Get Started
         </Button>
       </Flex>
-      <Box>
+      <Box m='auto'>
         <WizScene />
       </Box>
     </SimpleGrid>
