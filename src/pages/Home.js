@@ -6,6 +6,7 @@ import Legendary from "../components/Legendary";
 import Roadmap from "../components/Roadmap";
 import Token from "../components/Token";
 import Metaverse from "../components/Metaverse";
+import Launchpad from "../components/Launchpad";
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Hero />
       <Legendary />
       <Metaverse />
+      <Launchpad />
       <Roadmap />
       <Token />
     </div>

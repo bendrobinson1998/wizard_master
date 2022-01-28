@@ -17,7 +17,6 @@ const Metaverse = () => {
       px={5}
       spacing={0}
       _after={{
-       
         opacity: 0.25,
         pos: "absolute",
         top: 0,
@@ -53,7 +52,7 @@ const Metaverse = () => {
           color={useColorModeValue("brand.600", "gray.300")}
           lineHeight="shorter"
         >
-          Great customer relationships start here.
+          Discover Arteria.
         </chakra.h1>
 
         <chakra.p
@@ -63,8 +62,11 @@ const Metaverse = () => {
           color={useColorModeValue("brand.600", "gray.400")}
           letterSpacing="wider"
         >
-          Get the #1 Business Messenger and start delivering personalized
-          experiences at every stage of the customer journey.
+          Embark on a Mystic Mage adventure and join us in our exclusive holders
+          only metaverse land, your Mystic Mage NFT is your entry pass! We will
+          be holding exciting whitelist competitions for projects that join
+          through our launchpad here, alongisde exciting $AMULET mini games and
+          much more...
         </chakra.p>
         <Button
           color={"white"}
@@ -79,7 +81,7 @@ const Metaverse = () => {
           Get Started
         </Button>
       </Flex>
-      <Box m='auto'>
+      <Box m="auto">
         <WizScene />
       </Box>
     </SimpleGrid>
