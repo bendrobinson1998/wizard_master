@@ -23,7 +23,7 @@ export default function Legendary() {
         <SimpleGrid
           alignItems="start"
           columns={{ base: 1, md: 2 }}
-          mb={24}
+          mb={40}
           spacingY={{ base: 10, md: 32 }}
           spacingX={{ base: 10, md: 24 }}
         >
@@ -73,12 +73,9 @@ export default function Legendary() {
               and build advanced and reliable products yourself from scratch.
             </chakra.p>
           </Box>
-          <Box
-            w="full"
-            h="full"
-            py={48}
-            bg={useColorModeValue("gray.200", "gray.700")}
-          ></Box>
+          <Box m="auto" alignSelf={"center"} justifyContent={"center"}>
+            <Image src="./earth_mage.png" w="250px" alt="Mystic Mages Logo" />
+          </Box>
         </SimpleGrid>
       </Box>
     </Flex>
