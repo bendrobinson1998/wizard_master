@@ -48,7 +48,7 @@ export default function Roadmap() {
   };
   return (
     <Flex w="auto" justifyContent="center" alignItems="center">
-      <Box px={5} mb={10} py={12} rounded="xl">
+      <Box px={5} mb={20} py={12} rounded="xl">
         <Box maxW="7xl" mx="auto" px={{ base: 4, lg: 8 }}>
           <Box textAlign={{ lg: "center" }}>
             <chakra.p
