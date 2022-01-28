@@ -12,10 +12,6 @@ body,
   background-color: black;
 }
 
-.app {
-  z-index: 9999 !important;
-}
-
 body {
   position: fixed;
 }
@@ -28,18 +24,9 @@ body {
   color: black !important;
 }
 
-#hero {
-  z-index: 2147483647 !important;
-  position: relative !important;
-}
-
 #hero-button {
   transform: translate(0, 10vh);
   cursor: pointer;
-}
-
-.voxel-scene {
-  z-index: 999;
 }
 
 .terms {
@@ -47,4 +34,9 @@ body {
   opacity: 0.5;
   transform: translate(0, 50vh);
   margin-top: -25px !important;
+}
+
+.app {
+  z-index: 9999;
+  position: relative;
 }
