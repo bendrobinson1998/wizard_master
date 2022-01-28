@@ -12,6 +12,7 @@ import {
   PopoverContent,
   useColorModeValue,
   useDisclosure,
+  Button,
 } from "@chakra-ui/react";
 import {
   HamburgerIcon,
@@ -19,6 +20,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
+
 /* import DarkModeToggle from "./DarkModeToggle"; */
 
 export default function Navbar() {
@@ -62,9 +64,7 @@ export default function Navbar() {
           justify={"flex-end"}
           direction={"row"}
           spacing={6}
-        >
-          {/* <DarkModeToggle /> */}
-        </Stack>
+        ></Stack>
       </Flex>
 
       <Collapse in={isOpen} animateOpacity>
