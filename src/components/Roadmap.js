@@ -17,7 +17,6 @@ export default function Roadmap() {
             alignItems="center"
             justifyContent="center"
             rounded="md"
-            bg={useColorModeValue("white", "gray.800")}
             color="white"
           >
             <Icon
@@ -53,8 +52,7 @@ export default function Roadmap() {
         px={5}
         mt={20}
         py={12}
-        bg={useColorModeValue("white", "gray.800")}
-        rounded="xl"
+         rounded="xl"
       >
         <Box maxW="7xl" mx="auto" px={{ base: 4, lg: 8 }}>
           <Box textAlign={{ lg: "center" }}>

@@ -9,12 +9,12 @@ import Metaverse from "../components/Metaverse";
 
 export default function HomePage() {
   return (
-    <>
+    <div className="app">
       <Hero />
       <Legendary />
       <Metaverse />
       <Roadmap />
       <Token />
-    </>
+    </div>
   );
 }

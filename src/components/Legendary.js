@@ -18,7 +18,7 @@ export default function Legendary() {
       alignItems="center"
       id="legendary-start"
     >
-      <Box bg={useColorModeValue("white", "gray.800")} px={8} py={20} mx="auto">
+      <Box  px={8} py={20} mx="auto">
         <SimpleGrid
           alignItems="start"
           columns={{ base: 1, md: 2 }}

@@ -17,7 +17,7 @@ const Metaverse = () => {
       px={5}
       spacing={0}
       _after={{
-        bg: "brand.500",
+       
         opacity: 0.25,
         pos: "absolute",
         top: 0,

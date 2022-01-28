@@ -9,6 +9,11 @@ body,
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  background-color: black;
+}
+
+.app {
+  z-index: 9999 !important;
 }
 
 body {
