@@ -63,7 +63,7 @@ const Metaverse = () => {
           letterSpacing="wider"
         >
           Embark on a Mystic Mage adventure and join us in our exclusive holders
-          only metaverse land, your Mystic Mage NFT is your entry pass! We will
+          only metaverse land - Arteria! Your Mystic Mage NFT is your entry pass. We will
           be holding exciting whitelist competitions for projects that join
           through our launchpad here, alongisde exciting $AMULET mini games and
           much more...
