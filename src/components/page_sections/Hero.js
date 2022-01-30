@@ -1,6 +1,6 @@
 import React from "react";
 import { chakra, Box, Flex, Stack, Icon, Image } from "@chakra-ui/react";
-import Navbar from "./Navbar";
+
 import { BsChevronDoubleDown } from "react-icons/bs";
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
         id="hero"
         bg={"transparent"}
       >
-        <Navbar />
+        
         <Flex
           align="center"
           pos="relative"
