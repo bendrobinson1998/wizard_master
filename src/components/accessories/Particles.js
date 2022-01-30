@@ -71,7 +71,7 @@ const Particle = () => {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 3,
+            speed: 2,
             straight: false,
           },
           number: {
@@ -79,7 +79,7 @@ const Particle = () => {
               enable: true,
               area: 800,
             },
-            value: 25,
+            value: 15,
           },
           opacity: {
             value: 0.5,
