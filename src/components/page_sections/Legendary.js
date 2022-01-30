@@ -80,7 +80,11 @@ export default function Legendary() {
             </chakra.p>
           </Box>
           <Box m="auto" alignSelf={"center"} justifyContent={"center"}>
-            <Image src="./fire_mage.png" w="250px" alt="Mystic Mages Logo" />
+            <Image
+              src="./genesis_mage_1.jpeg"
+              w="350px"
+              alt="Mystic Mages Logo"
+            />
           </Box>
         </SimpleGrid>
         <SimpleGrid
