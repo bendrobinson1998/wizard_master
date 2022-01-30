@@ -59,12 +59,12 @@ const Particle = () => {
           links: {
             color: "#ffffff",
             distance: 150,
-            enable: true,
+            enable: false,
             opacity: 0.5,
             width: 1,
           },
           collisions: {
-            enable: true,
+            enable: false,
           },
           move: {
             direction: "none",
@@ -79,13 +79,13 @@ const Particle = () => {
               enable: true,
               area: 800,
             },
-            value: 15,
+            value: 20,
           },
           opacity: {
             value: 0.5,
           },
           shape: {
-            type: "circle",
+            type: "star",
           },
           size: {
             random: true,
