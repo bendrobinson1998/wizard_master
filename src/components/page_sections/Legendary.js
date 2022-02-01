@@ -29,14 +29,14 @@ export default function Legendary() {
     >
       <Box px={8} py={20} mx="auto">
         <SimpleGrid
-          alignItems="start"
+          alignItems="center"
           columns={{ base: 1, md: 2 }}
           mb={40}
           spacingY={{ base: 10, md: 32 }}
           spacingX={{ base: 10, md: 24 }}
         >
           <Box
-            boxShadow={"lg"}
+          /*  boxShadow={"lg"}
             maxW={"640px"}
             direction={{ base: "column-reverse", md: "row" }}
             width={"full"}
@@ -59,7 +59,7 @@ export default function Legendary() {
               top: 0,
               left: 0,
               backgroundImage: backgrounds[finalnum % 4],
-            }}
+            }} */
           >
             <chakra.h2
               fontSize={{ base: "2xl", md: "3xl" }}
@@ -79,7 +79,33 @@ export default function Legendary() {
               metaverse.
             </chakra.p>
           </Box>
-          <Box m="auto" alignSelf={"center"} justifyContent={"center"}>
+          <Box
+            m="auto"
+            alignSelf={"center"}
+            justifyContent={"center"}
+            boxShadow={"lg"}
+            direction={{ base: "column-reverse", md: "row" }}
+            rounded={"xl"}
+            p={3}
+            justifyContent={"space-between"}
+            position={"relative"}
+            bg={useColorModeValue("white", "gray.800")}
+            _before={{
+              content: '""',
+              position: "absolute",
+              zIndex: "-1",
+              height: "full",
+              maxW: "640px",
+              width: "full",
+              filter: "blur(40px)",
+              transform: "scale(0.98)",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              top: 0,
+              left: 0,
+              backgroundImage: backgrounds[finalnum % 4],
+            }}
+          >
             <Image
               src="./genesis_mage_1.jpeg"
               w="350px"
@@ -96,7 +122,7 @@ export default function Legendary() {
           spacingX={{ base: 10, md: 24 }}
         >
           <Box
-            boxShadow={"lg"}
+            /* boxShadow={"lg"}
             maxW={"640px"}
             direction={{ base: "column-reverse", md: "row" }}
             width={"full"}
@@ -119,7 +145,7 @@ export default function Legendary() {
               top: 0,
               left: 0,
               backgroundImage: backgrounds[finalnum % 4],
-            }}
+            }} */
             order={{ base: "none", md: 2 }}
           >
             <chakra.h2
@@ -140,7 +166,36 @@ export default function Legendary() {
               mage.
             </chakra.p>
           </Box>
-          <Box m="auto" alignSelf={"center"} justifyContent={"center"}>
+          <Box
+            m="auto"
+            alignSelf={"center"}
+            justifyContent={"center"}
+            m="auto"
+            alignSelf={"center"}
+            justifyContent={"center"}
+            boxShadow={"lg"}
+            direction={{ base: "column-reverse", md: "row" }}
+            rounded={"xl"}
+            p={3}
+            justifyContent={"space-between"}
+            position={"relative"}
+            bg={useColorModeValue("white", "gray.800")}
+            _before={{
+              content: '""',
+              position: "absolute",
+              zIndex: "-1",
+              height: "full",
+              maxW: "640px",
+              width: "full",
+              filter: "blur(40px)",
+              transform: "scale(0.98)",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              top: 0,
+              left: 0,
+              backgroundImage: backgrounds[finalnum % 4],
+            }}
+          >
             <Image src="./earth_mage.png" w="250px" alt="Mystic Mages Logo" />
           </Box>
         </SimpleGrid>

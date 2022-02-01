@@ -65,8 +65,7 @@ export default function Token() {
               textAlign={{ base: "center", sm: "left" }}
               color={useColorModeValue("gray.600", "gray.500")}
             >
-              Let's put our heads together to build a successful partnership to
-              benefit both your customers and your business.
+              Earn passive $AMULET tokens every second for holding a genesis Mystic Mage.
             </chakra.p>
             <div textAlign={{ base: "center", sm: "left" }}>
               <Image
@@ -75,17 +74,6 @@ export default function Token() {
                 h={150}
                 my={10}
               />
-              <Button
-                color={"white"}
-                bg={"purple.600"}
-                rounded={"lg"}
-                px={6}
-                _hover={{
-                  bg: "purple.700",
-                }}
-              >
-                Become a Partner
-              </Button>
             </div>
           </Box>
           <VStack
@@ -98,7 +86,7 @@ export default function Token() {
             direction={{ base: "column-reverse", md: "row" }}
             width={"full"}
             rounded={"xl"}
-            p={10}
+            p={7}
             justifyContent={"space-between"}
             position={"relative"}
             bg={useColorModeValue("white", "gray.800")}
