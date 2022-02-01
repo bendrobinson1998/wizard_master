@@ -8,6 +8,7 @@ import Token from "../components/page_sections/Token";
 import Metaverse from "../components/page_sections/Metaverse";
 import Launchpad from "../components/page_sections/Launchpad";
 import Team from "../components/page_sections/Team";
+import MetaverseNew from "../components/page_sections/MetaverseNew";
 
 export default function HomePage() {
   return (

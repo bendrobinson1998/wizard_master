@@ -16,6 +16,9 @@ body {
   position: fixed;
 }
 
+.wiz {
+  padding-bottom: -10px !important;
+}
 .button-primary {
   background-color: #960696 !important;
 }
