@@ -23,11 +23,6 @@ body {
   padding-top: 40px;
 }
 
-@media only screen and (min-width: 768px) {
-  .wiz {
-    padding-left: 100px;
-  }
-}
 .button-primary {
   background-color: #960696 !important;
 }
@@ -51,4 +46,29 @@ body {
 .app {
   z-index: 9999;
   position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .legendary-1 {
+    padding-left: 80px;
+  }
+
+  .legendary-2 {
+    padding-right: 80px;
+  }
+
+  .wiz {
+    padding-left: 100px;
+  }
+
+  .token {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .token-image {
+    justify-content: center;
+    display: flex;
+  }
 }

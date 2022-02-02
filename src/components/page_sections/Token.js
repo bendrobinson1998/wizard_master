@@ -43,7 +43,7 @@ export default function Token() {
   };
 
   return (
-    <Flex w="auto" justifyContent="center" alignItems="center" px={5} mb={10}>
+    <Flex w="auto" justifyContent="center" alignItems="center" className="token" mb={10}>
       <Box shadow="xl" px={8} pb={20} mx="auto">
         <SimpleGrid
           alignItems="center"
@@ -67,7 +67,7 @@ export default function Token() {
             >
               Earn passive $AMULET tokens every second for holding a genesis Mystic Mage.
             </chakra.p>
-            <div textAlign={{ base: "center", sm: "left" }}>
+            <div textAlign={{ base: "center", sm: "left" }} className="token-image">
               <Image
                 src="./amulet_potion.png"
                 alt="Amulet Token Potion Graphic"

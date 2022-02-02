@@ -35,32 +35,7 @@ export default function Legendary() {
           spacingY={{ base: 10, md: 32 }}
           spacingX={{ base: 10, md: 24 }}
         >
-          <Box
-          /*  boxShadow={"lg"}
-            maxW={"640px"}
-            direction={{ base: "column-reverse", md: "row" }}
-            width={"full"}
-            rounded={"xl"}
-            p={10}
-            justifyContent={"space-between"}
-            position={"relative"}
-            bg={useColorModeValue("white", "gray.800")}
-            _before={{
-              content: '""',
-              position: "absolute",
-              zIndex: "-1",
-              height: "full",
-              maxW: "640px",
-              width: "full",
-              filter: "blur(40px)",
-              transform: "scale(0.98)",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              top: 0,
-              left: 0,
-              backgroundImage: backgrounds[finalnum % 4],
-            }} */
-          >
+          <Box className="legendary-1">
             <chakra.h2
               fontSize={{ base: "2xl", md: "3xl" }}
               color={useColorModeValue("gray.800", "white")}
@@ -122,33 +97,7 @@ export default function Legendary() {
           spacingY={{ base: 10, md: 32 }}
           spacingX={{ base: 10, md: 24 }}
         >
-          <Box
-            /* boxShadow={"lg"}
-            maxW={"640px"}
-            direction={{ base: "column-reverse", md: "row" }}
-            width={"full"}
-            rounded={"xl"}
-            p={10}
-            justifyContent={"space-between"}
-            position={"relative"}
-            bg={useColorModeValue("white", "gray.800")}
-            _before={{
-              content: '""',
-              position: "absolute",
-              zIndex: "-1",
-              height: "full",
-              maxW: "640px",
-              width: "full",
-              filter: "blur(40px)",
-              transform: "scale(0.98)",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              top: 0,
-              left: 0,
-              backgroundImage: backgrounds[finalnum % 4],
-            }} */
-            order={{ base: "none", md: 2 }}
-          >
+          <Box className="legendary-2" order={{ base: "none", md: 2 }}>
             <chakra.h2
               fontSize={{ base: "2xl", md: "3xl" }}
               color={useColorModeValue("gray.800", "white")}
@@ -171,14 +120,11 @@ export default function Legendary() {
             m="auto"
             alignSelf={"center"}
             justifyContent={"center"}
-            
-            
             justifyContent={"center"}
             boxShadow={"lg"}
             direction={{ base: "column-reverse", md: "row" }}
             rounded={"xl"}
             p={2}
-            
             position={"relative"}
             bg={useColorModeValue("white", "gray.800")}
             _before={{
