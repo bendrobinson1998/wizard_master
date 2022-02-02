@@ -86,7 +86,7 @@ export default function Legendary() {
             boxShadow={"lg"}
             direction={{ base: "column-reverse", md: "row" }}
             rounded={"xl"}
-            p={3}
+            p={2}
             justifyContent={"space-between"}
             position={"relative"}
             bg={useColorModeValue("white", "gray.800")}
@@ -109,7 +109,8 @@ export default function Legendary() {
             <Image
               src="./genesis_mage_1.jpeg"
               w="350px"
-              alt="Mystic Mages Logo"
+              alt="Genesis Mystic Mage Preview 1
+              "
             />
           </Box>
         </SimpleGrid>
@@ -170,14 +171,14 @@ export default function Legendary() {
             m="auto"
             alignSelf={"center"}
             justifyContent={"center"}
-            m="auto"
-            alignSelf={"center"}
+            
+            
             justifyContent={"center"}
             boxShadow={"lg"}
             direction={{ base: "column-reverse", md: "row" }}
             rounded={"xl"}
-            p={3}
-            justifyContent={"space-between"}
+            p={2}
+            
             position={"relative"}
             bg={useColorModeValue("white", "gray.800")}
             _before={{
@@ -199,7 +200,7 @@ export default function Legendary() {
             <Image
               src="./genesis_mage_2.png"
               w="350px"
-              alt="Mystic Mages Logo"
+              alt="Genesis Mystic Mage Preview 2"
             />
           </Box>
         </SimpleGrid>
