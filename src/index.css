@@ -67,6 +67,9 @@ body {
   }
 }
 @media only screen and (max-width: 768px) {
+  .wiz {
+    margin-bottom: -100px !important;
+  }
   .token-image {
     justify-content: center;
     display: flex;
