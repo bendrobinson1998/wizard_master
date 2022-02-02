@@ -22,6 +22,12 @@ body {
   width: 400px;
   padding-top: 40px;
 }
+
+@media only screen and (min-width: 768px) {
+  .wiz {
+    padding-left: 100px;
+  }
+}
 .button-primary {
   background-color: #960696 !important;
 }
