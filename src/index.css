@@ -44,7 +44,7 @@ body {
 }
 
 .app {
-  z-index: 9999;
+  z-index: 999;
   position: relative;
 }
 
@@ -64,11 +64,14 @@ body {
   .token {
     padding-left: 70px;
     padding-right: 70px;
+    z-index: 9999;
   }
 }
 @media only screen and (max-width: 768px) {
   .wiz {
-    margin-bottom: -100px !important;
+    margin-bottom: 100px !important;
+    /*  max-width: fit-content; */
+    height: 200px !important;
   }
   .token-image {
     justify-content: center;
