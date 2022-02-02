@@ -23,8 +23,8 @@ export default function WizScene() {
     <div className="wiz">
       <Canvas
         camera={{
-          position: [-5, 7, 11],
-          fov: 75,
+          position: [-17, 7, 11],
+          fov: 55,
         }}
       >
         <Suspense fallback={<Loader />}>
