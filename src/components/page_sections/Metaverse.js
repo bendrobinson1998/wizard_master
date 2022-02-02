@@ -42,6 +42,7 @@ const Metaverse = (props) => {
         justifyContent="center"
         px={{ base: 4, lg: 20 }}
         pb={24}
+        className="token-box"
       >
         <Badge
           color="white"

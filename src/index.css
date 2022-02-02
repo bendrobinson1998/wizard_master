@@ -69,12 +69,17 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .wiz {
-    margin-bottom: 100px !important;
+    margin-bottom: -100px !important;
     /*  max-width: fit-content; */
-    height: 200px !important;
   }
   .token-image {
     justify-content: center;
     display: flex;
+  }
+  .token {
+    z-index: 9999;
+  }
+  .token-box {
+    z-index: 9999;
   }
 }
