@@ -36,6 +36,20 @@ const testimonials = [
       "Thank you for making it painless, pleasant and most of all, hassle free! I'm good to go. No matter where you go, EEZY is the coolest, most happening thing around! I love EEZY!",
     avatar: "./genesis_mage_1.jpeg",
   },
+  {
+    name: "Nety P.",
+    role: "Lead Artist",
+    content:
+      "Thank you for making it painless, pleasant and most of all, hassle free! I'm good to go. No matter where you go, EEZY is the coolest, most happening thing around! I love EEZY!",
+    avatar: "./genesis_mage_1.jpeg",
+  },
+  {
+    name: "James R.",
+    role: "Community Support Lead",
+    content:
+      "Thank you for making it painless, pleasant and most of all, hassle free! I'm good to go. No matter where you go, EEZY is the coolest, most happening thing around! I love EEZY!",
+    avatar: "./genesis_mage_1.jpeg",
+  },
 ];
 
 const backgrounds = [
