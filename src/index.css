@@ -17,7 +17,9 @@ body {
 }
 
 .wiz {
-  padding-bottom: -10px !important;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 .button-primary {
   background-color: #960696 !important;

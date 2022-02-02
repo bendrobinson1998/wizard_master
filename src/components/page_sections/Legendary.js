@@ -75,7 +75,7 @@ export default function Legendary() {
             >
               Mint a Genesis Mystic Mage and reap the rewards of earning passive
               $AMULET tokens daily. Only the Genesis supply will earn rewards,
-              and only the genesis supply will have access to our sandbox
+              and only the genesis supply will have access to our Sandbox
               metaverse.
             </chakra.p>
           </Box>

@@ -20,8 +20,8 @@ function Loader() {
 
 export default function WizScene() {
   return (
-    <Box className="wiz" w={[375, 480, 640]} h={[375, 480, 640]}>
-      <Canvas camera={{ fov: 60, position: [-19, 0, 5] }}>
+    <Box w={[400, 500, 700]} h={[400, 500, 700]}>
+      <Canvas camera={{ fov: 20, position: [30, 30, 30] }}>
         <Suspense fallback={<Loader />}>
           <WizLoader />
           <OrbitControls enablePan={false} enableZoom={false} />
