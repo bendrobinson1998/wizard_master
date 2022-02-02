@@ -196,7 +196,11 @@ export default function Legendary() {
               backgroundImage: backgrounds[finalnum % 4],
             }}
           >
-            <Image src="./earth_mage.png" w="250px" alt="Mystic Mages Logo" />
+            <Image
+              src="./genesis_mage_2.png"
+              w="350px"
+              alt="Mystic Mages Logo"
+            />
           </Box>
         </SimpleGrid>
       </Box>

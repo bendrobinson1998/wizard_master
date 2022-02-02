@@ -18,8 +18,9 @@ body {
 
 .wiz {
   display: flex;
+  height: 500px;
+  width: 400px;
   justify-content: center;
-  margin-bottom: 30px;
 }
 .button-primary {
   background-color: #960696 !important;
