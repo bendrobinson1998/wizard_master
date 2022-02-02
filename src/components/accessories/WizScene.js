@@ -23,7 +23,7 @@ export default function WizScene() {
     <div className="wiz">
       <Canvas
         camera={{
-          position: [-17, 7, 11],
+          position: [-18, 7, 11],
           fov: 55,
         }}
       >
