@@ -12,7 +12,7 @@ import {
 
 const Discord = () => {
   return (
-    <Box px={8} py={24} mx="auto">
+    <Box px={8} pb={24} mt={2} mb={10} mx="auto" className="discord">
       <Box
         w={{ base: "full", md: 11 / 12, xl: 9 / 12 }}
         mx="auto"

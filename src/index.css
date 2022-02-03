@@ -82,4 +82,8 @@ body {
   .token-box {
     z-index: 9999;
   }
+
+  .discord {
+    z-index: 999999;
+  }
 }
