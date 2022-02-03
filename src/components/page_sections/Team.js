@@ -9,7 +9,7 @@ import {
 
 const testimonials = [
   {
-    name: "Daniel R.",
+    name: "Daniel S.",
     role: "Chief Operations Officer",
     content:
       "I am so pleased with this product. EEZY is both attractive and highly adaptable. Without EEZY, we would have gone bankrupt by now. Thank you for creating this product!",
@@ -23,14 +23,14 @@ const testimonials = [
     avatar: "./genesis_mage_1.jpeg",
   },
   {
-    name: "Edward R.",
+    name: "Edward G.",
     role: "Community Manager",
     content:
       "I didn't even need training. We've used EEZY for the last five years. I have gotten at least 50 times the value from EEZY. I made back the purchase price in just 48 hours!",
     avatar: "./genesis_mage_1.jpeg",
   },
   {
-    name: "James H.",
+    name: "James M.",
     role: "Chief Marketing Officer",
     content:
       "Thank you for making it painless, pleasant and most of all, hassle free! I'm good to go. No matter where you go, EEZY is the coolest, most happening thing around! I love EEZY!",
@@ -44,7 +44,7 @@ const testimonials = [
     avatar: "./genesis_mage_1.jpeg",
   },
   {
-    name: "James R.",
+    name: "Brad F.",
     role: "Community Support Lead",
     content:
       "Thank you for making it painless, pleasant and most of all, hassle free! I'm good to go. No matter where you go, EEZY is the coolest, most happening thing around! I love EEZY!",
