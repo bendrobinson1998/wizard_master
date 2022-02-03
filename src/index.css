@@ -92,4 +92,8 @@ body {
     transform: translate(0, 25vh);
     cursor: pointer;
   }
+
+  .hero-image {
+    background-position-x: 35% !important;
+  }
 }
