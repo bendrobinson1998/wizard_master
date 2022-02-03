@@ -7,15 +7,15 @@ const Hero = () => {
   return (
     <chakra.header>
       <Box
+        className="hero-image"
         w="full"
         h="100vh"
-        backgroundImage="url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)"
+        backgroundImage="./background_mages.png"
         bgPos="center"
         bgSize="cover"
         id="hero"
-        bg={"transparent"}
+        /* bg={"transparent"} */
       >
-        
         <Flex
           align="center"
           pos="relative"
