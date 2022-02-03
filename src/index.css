@@ -32,7 +32,7 @@ body {
 }
 
 #hero-button {
-  transform: translate(0, 15vh);
+  transform: translate(0, 25vh);
   cursor: pointer;
 }
 
@@ -86,11 +86,6 @@ body {
 
   .discord {
     z-index: 999999;
-  }
-
-  #hero-button {
-    transform: translate(0, 25vh);
-    cursor: pointer;
   }
 
   .hero-image {
