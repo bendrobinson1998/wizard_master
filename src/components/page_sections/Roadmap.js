@@ -64,7 +64,7 @@ export default function Roadmap() {
             <chakra.p
               mt={4}
               maxW="2xl"
-              fontSize="xl"
+              fontSize={{ base: "lg", md: "xl" }}
               mx={{ lg: "auto" }}
               color={useColorModeValue("gray.500", "gray.400")}
             >

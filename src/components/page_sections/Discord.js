@@ -40,8 +40,8 @@ const Discord = () => {
         </chakra.h1>
         <chakra.p
           px={{ base: 0, lg: 24 }}
-          mb={6}
           fontSize={{ base: "lg", md: "xl" }}
+          mb={6}
           color={useColorModeValue("gray.600", "gray.300")}
         >
           The Mystic Mages Discord Server features a P2E (Participate to Earn)

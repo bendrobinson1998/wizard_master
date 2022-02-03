@@ -67,7 +67,7 @@ const Metaverse = (props) => {
         <chakra.p
           pr={{ base: 0, lg: 16 }}
           mb={4}
-          fontSize="md"
+          fontSize={{ base: "lg", md: "xl" }}
           color={useColorModeValue("brand.600", "gray.400")}
         >
           Embark on a Mystic Mage adventure and join us in our exclusive

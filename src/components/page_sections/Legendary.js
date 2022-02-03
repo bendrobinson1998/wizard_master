@@ -46,6 +46,7 @@ export default function Legendary() {
             <chakra.p
               mt={4}
               mb={5}
+              fontSize={{ base: "lg", md: "xl" }}
               color={useColorModeValue("gray.600", "gray.400")}
             >
               Mint a Genesis Mystic Mage and reap the rewards of earning passive
@@ -108,6 +109,7 @@ export default function Legendary() {
             <chakra.p
               mt={4}
               mb={5}
+              fontSize={{ base: "lg", md: "xl" }}
               color={useColorModeValue("gray.600", "gray.400")}
             >
               You may be lucky enough to mint an Elite Mage, only 30 have been

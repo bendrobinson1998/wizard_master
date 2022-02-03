@@ -131,6 +131,7 @@ export default function Team() {
           margin={"auto"}
           width={"70%"}
           fontWeight={"medium"}
+          fontSize={{ base: "lg", md: "xl" }}
           color={useColorModeValue("gray.500", "gray.400")}
         >
           Meet the{" "}
