@@ -25,7 +25,7 @@ export default function WizScene() {
         camera={{
           position: [-18, 7, 11],
           fov: 55,
-        }} className="canvas"
+        }}
       >
         <Suspense fallback={<Loader />}>
           <WizLoader />

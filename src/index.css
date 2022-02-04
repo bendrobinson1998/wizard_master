@@ -79,10 +79,10 @@ body {
     display: flex;
   }
   .token {
-    z-index: 9999;
+    z-index: 9999 !important;
   }
   .token-box {
-    z-index: 9999;
+    z-index: 9999 !important;
   }
 
   .discord {
