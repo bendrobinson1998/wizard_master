@@ -71,7 +71,7 @@ body {
 @media only screen and (max-width: 768px) {
   /* mobile only */
   .wiz {
-    margin-bottom: -100px !important;
+    margin-bottom: -120px !important;
     /*  max-width: fit-content; */
   }
   .token-image {
