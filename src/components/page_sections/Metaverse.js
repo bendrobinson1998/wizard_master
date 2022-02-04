@@ -92,7 +92,7 @@ const Metaverse = (props) => {
       <Box
         className="wiz"
         m="auto"
-        /* alignSelf={"center"}
+        alignSelf={"center"}
         direction={{ base: "column-reverse", md: "row" }}
         rounded={"xl"}
         p={2}
@@ -112,7 +112,7 @@ const Metaverse = (props) => {
           top: 0,
           left: 0,
           backgroundImage: backgrounds[finalnum % 4],
-        }} */
+        }}
       >
         <WizScene />
       </Box>
