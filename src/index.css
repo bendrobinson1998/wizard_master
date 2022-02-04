@@ -21,6 +21,7 @@ body {
   height: 700px;
   width: 400px;
   padding-top: 40px;
+  z-index: 1 !important;
 }
 
 .button-primary {
