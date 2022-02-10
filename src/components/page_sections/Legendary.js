@@ -85,7 +85,7 @@ export default function Legendary() {
             }}
           >
             <Image
-              src="./genesis_mage_1.jpeg"
+              src="./genesis_mage_two.png"
               w="350px"
               alt="Genesis Mystic Mage Preview 1
               "
@@ -148,7 +148,7 @@ export default function Legendary() {
             }}
           >
             <Image
-              src="./genesis_mage_two.png"
+              src="./genesis_mage_2.png"
               w="350px"
               alt="Genesis Mystic Mage Preview 2"
             />
