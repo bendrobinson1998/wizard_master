@@ -19,7 +19,7 @@ const Metaverse = (props) => {
   ];
   const num = Math.random() * 10;
   const finalnum = Math.round(num);
-  const { index } = props;
+
   return (
     <SimpleGrid
       columns={{ base: 1, md: 2 }}

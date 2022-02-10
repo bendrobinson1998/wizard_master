@@ -92,9 +92,10 @@ export default function Roadmap() {
                   />
                 }
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                This is the start of the Mystic Mages NFT journey. We will be
+                releasing 3900 Genesis Mages into Arteria capable of earning
+                daily $AMULET tokens. 30 of these Mage's will be elite and will
+                yield higher daily rewards and also come with animated artwork!
               </Feature>
 
               <Feature
@@ -108,9 +109,7 @@ export default function Roadmap() {
                   />
                 }
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                The Mages have finally reached Arteria,
               </Feature>
 
               <Feature
