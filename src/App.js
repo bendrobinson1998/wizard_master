@@ -2,14 +2,9 @@ import React from "react";
 import HomePage from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Mint from "./pages/Mint";
-import { useEffect } from "react";
 
-import smoothscroll from "smoothscroll-polyfill";
 function App() {
-  useEffect(() => {
-    // kick off the polyfill!
-    smoothscroll.polyfill();
-  }, []);
+ 
   return (
     <>
       <BrowserRouter>

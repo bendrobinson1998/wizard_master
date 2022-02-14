@@ -1,7 +1,7 @@
 import React from "react";
 
 import Hero from "../components/page_sections/Hero";
-/* import Navbar from "../components/page_sections/Navbar"; */
+
 import Legendary from "../components/page_sections/Legendary";
 import Roadmap from "../components/page_sections/Roadmap";
 import Token from "../components/page_sections/Token";
@@ -14,7 +14,6 @@ import Discord from "../components/page_sections/Discord";
 export default function HomePage() {
   return (
     <div className="app">
-      {/* <Navbar /> */}
       <Hero />
       <Legendary />
       <Metaverse />

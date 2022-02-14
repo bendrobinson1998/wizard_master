@@ -39,9 +39,10 @@ body {
 
 .terms {
   font-size: xx-small;
-  opacity: 0.5;
+
   transform: translate(0, 50vh);
   margin-top: -25px !important;
+  padding: 10px;
 }
 
 .app {
@@ -92,4 +93,12 @@ body {
   .hero-image {
     background-position-x: 35% !important;
   }
+}
+
+.mint-page {
+  background-repeat: no-repeat;
+  background-image: url("../public/background_mages.png");
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
 }

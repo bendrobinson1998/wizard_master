@@ -4,32 +4,35 @@ import React from "react";
 export default function Mint() {
   return (
     <>
-      <VStack spacing={10} align="center" mt={10}>
-        <Box h="40px">
-          <Heading>Hello Mint Page</Heading>
+      <VStack
+        spacing={10}
+        align="center"
+        className="mint-page"
+        height={"100vh"}
+      >
+        <Box h="40px" mt={50} px={5} mb={5} textAlign="center">
+          <Heading>Are you ready to enter Arteria?</Heading>
+
+          <Text>
+            To begin, connect your wallet by clicking the button below. Ensure
+            you have unlocked your MetaMask wallet before starting. Once your
+            wallet is connected, select the quantity you would like to mint and
+            then press mint! You will be met with a series of prompts in your
+            MetaMask wallet, please ensure you complete the transaction to
+            receive your NFT.
+          </Text>
         </Box>
         <Box h="40px">
           <Select
-            bg="black"
             borderColor="purple"
             className="mint-selection"
             placeholder="Select Quantity"
           >
-            <option className="mint-option" value="option1">
-              1
-            </option>
-            <option className="mint-option" value="option2">
-              2
-            </option>
-            <option className="mint-option" value="option3">
-              3
-            </option>
-            <option className="mint-option" value="option4">
-              4
-            </option>
-            <option className="mint-option" value="option5">
-              5
-            </option>
+            <option value="option1">1</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
           </Select>
         </Box>
         <Box h="40px">
