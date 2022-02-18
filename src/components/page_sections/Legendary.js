@@ -148,7 +148,7 @@ export default function Legendary() {
             }}
           >
             <Image
-              src="./genesis_mage_2.png"
+              src="./1_2.gif"
               w="350px"
               alt="Genesis Mystic Mage Preview 2"
             />
