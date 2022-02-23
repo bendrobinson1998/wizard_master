@@ -77,7 +77,7 @@ export default function Token() {
               <Image
                 src="./potion_cluster.png"
                 alt="Amulet Token Potion Graphic"
-                h={150}
+                h={250}
                 my={10}
               />
             </div>
