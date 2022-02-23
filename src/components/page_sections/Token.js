@@ -5,11 +5,10 @@ import {
   Box,
   Flex,
   useColorModeValue,
-  Icon,
+  Image,
   SimpleGrid,
   Button,
   VStack,
-  Image,
 } from "@chakra-ui/react";
 export default function Token() {
   const backgrounds = [
@@ -23,20 +22,13 @@ export default function Token() {
   const Feature = (props) => {
     return (
       <Flex>
-        <Icon
-          boxSize={5}
-          mt={1}
-          mr={2}
-          color="white"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-        >
-          <path
-            fillRule="evenodd"
-            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-            clipRule="evenodd"
-          ></path>
-        </Icon>
+        <Image
+          src="./amulet_single.png"
+          width={"30px"}
+          height={"30px"}
+          margin
+          alt="Amulet Token"
+        />
         <chakra.p
           fontSize={{ base: "lg", md: "xl" }}
           color="white"
@@ -120,25 +112,27 @@ export default function Token() {
               backgroundImage: backgrounds[finalnum % 4],
             }}
           >
-            <chakra.h1>Utility that exists to benefit the holders.</chakra.h1>
+            <chakra.h2
+              mb={3}
+              fontSize={{ base: "2xl", md: "3xl" }}
+              fontWeight="bold"
+              textAlign={{ base: "center", sm: "left" }}
+            >
+              Utility that exists to benefit the holders 🧙
+            </chakra.h2>
             <Feature>
-              Use $MAGEC to purchase whitelist spots on collections launched
+              Spend $MAGEC to purchase whitelist spots on collections launched
               through the MysticLaunchpad
             </Feature>
             <Feature>
-              Use $MAGEC to receive discounts off future project collaborations
-              mint costs.
+              Use $MAGEC to receive discounts off future project launches by the
+              Mystic Team!
             </Feature>
             <Feature>
-              Spend $MAGEC on the Arteria Mystery Box to collect custom Sandbox
-              traits for your voxel metaverse avatar.
+              Spin the Arteria Mystery Box to collect custom Sandbox traits for
+              your voxel metaverse avatar using $MAGEC.
             </Feature>
             <Feature>5 Days of Log Retention</Feature>
-            <Feature>Limited 24/7 Ticket Support</Feature>
-            <Feature>1 Dedicated IP (Foundation 100k and up)</Feature>
-            <Feature>1,000 Email Address Validations</Feature>
-            <Feature>Host events together or get your event sponsored</Feature>
-            <Feature>Reach 90,000 customers via our integration page</Feature>
           </VStack>
         </SimpleGrid>
       </Box>
