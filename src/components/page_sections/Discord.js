@@ -12,7 +12,7 @@ import {
 
 const Discord = () => {
   return (
-    <Box px={8} pb={24} mt={2} mb={10} mx="auto" className="discord">
+    <Box px={8} pb={24} mt={2} mb={5} mx="auto" className="discord">
       <Box
         w={{ base: "full", md: 11 / 12, xl: 9 / 12 }}
         mx="auto"
@@ -65,9 +65,8 @@ const Discord = () => {
             mb={{ base: 2, sm: 0 }}
             size="lg"
             cursor="pointer"
-            href="https://discord.gg/zZ4v72xm6N"
           >
-            Join Now
+            Discord Invite Link Dropping Soon
             <Icon boxSize={4} ml={1} viewBox="0 0 20 20" fill="currentColor">
               <path
                 fillRule="evenodd"
