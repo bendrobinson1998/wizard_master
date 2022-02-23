@@ -149,7 +149,11 @@ export default function Roadmap() {
                   />
                 }
               >
-                The Mages have finally reached Arteria,
+                The Mages have finally completed their journey to the promised
+                land, Arteria. Phase 2 of the Mystic roadmap involves rollout of
+                the MysticLaunchpad, affiliate programme and $MAGEC token,
+                allowing Genesis mage holders to collect 0.5ETH for every
+                succesful launchpad referral!
               </Feature>
 
               <Feature
