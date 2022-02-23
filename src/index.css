@@ -74,6 +74,7 @@ body {
   .wiz {
     height: 400px;
     margin-top: -10px;
+    margin-bottom: 50px !important;
   }
   .token-image {
     justify-content: center;
