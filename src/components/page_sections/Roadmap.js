@@ -41,14 +41,15 @@ export default function Roadmap() {
         </Flex>
         <Box ml={4}>
           <chakra.dt
-            fontSize="lg"
-            fontWeight="medium"
+            fontSize="xl"
+            fontWeight="bold"
             lineHeight="6"
-            color={useColorModeValue("gray.900")}
+            bgClip="text"
+            bgGradient="linear(to-r, purple.600,blue.600)"
           >
             {props.title}
           </chakra.dt>
-          <chakra.dd mt={2} color={useColorModeValue("gray.500", "gray.400")}>
+          <chakra.dd mt={2} color="white">
             {props.children}
           </chakra.dd>
         </Box>
@@ -75,12 +76,13 @@ export default function Roadmap() {
               maxW="2xl"
               fontSize={{ base: "lg", md: "xl" }}
               mx={{ lg: "auto" }}
-              color={useColorModeValue("gray.500", "gray.400")}
+              color={useColorModeValue("gray.900")}
             >
               This is the start of the Mystic Mages NFT journey. We will be
               releasing 3900 Genesis Mages into Arteria, capable of earning
               daily $MAGEC tokens. 10 of these will be Elite Mages coming with
-              detailed, animated artwork and yielding higher daily rewards!
+              detailed, hand-drawn animated artwork and yielding higher daily
+              rewards!
             </chakra.p>
           </Box>
 
