@@ -102,7 +102,7 @@ const Metaverse = (props) => {
           content: '""',
           position: "absolute",
           zIndex: "-1",
-          height: "500px",
+          height: "400px",
           maxW: "640px",
           width: "full",
           filter: "blur(40px)",
