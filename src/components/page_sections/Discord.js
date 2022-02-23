@@ -44,7 +44,7 @@ const Discord = () => {
           mb={6}
           color={useColorModeValue("gray.600", "gray.300")}
         >
-          The Mystic Mages Discord Server features a P2E (Participate to Earn)
+          The Mystic Mages Discord server features a P2E (Participate to Earn)
           integrated system that rewards members with $MAGEC for their continued
           contribution. Token's will be distributed following the launch of the
           collection.
