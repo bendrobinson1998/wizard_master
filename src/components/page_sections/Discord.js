@@ -45,9 +45,9 @@ const Discord = () => {
           color={useColorModeValue("gray.600", "gray.300")}
         >
           The Mystic Mages Discord Server features a P2E (Participate to Earn)
-          intergrated system that rewards members with $AMULET for their
-          continued contribution. Token's will be distributed following the
-          launch of the collection.
+          integrated system that rewards members with $MAGEC for their continued
+          contribution. Token's will be distributed following the launch of the
+          collection.
         </chakra.p>
         <Stack
           direction={{ base: "column", sm: "row" }}
@@ -84,7 +84,7 @@ const Discord = () => {
         mt={20}
         textAlign="center"
       >
-       {/*  <Image
+        {/*  <Image
           w="full"
           rounded="lg"
           shadow="2xl"
