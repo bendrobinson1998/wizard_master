@@ -84,13 +84,13 @@ const Discord = () => {
         mt={20}
         textAlign="center"
       >
-        <Image
+       {/*  <Image
           w="full"
           rounded="lg"
           shadow="2xl"
           src="https://kutty.netlify.app/hero.jpg"
           alt="Hellonext feedback boards software screenshot"
-        />
+        /> */}
       </Box>
     </Box>
   );

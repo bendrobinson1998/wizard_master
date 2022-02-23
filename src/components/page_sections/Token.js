@@ -68,14 +68,14 @@ export default function Token() {
               fontWeight="bold"
               textAlign={{ base: "center", sm: "left" }}
             >
-              $AMULET Token
+              $MAGEC Token
             </chakra.h2>
             <chakra.p
               fontSize={{ base: "lg", md: "xl" }}
               textAlign={{ base: "center", sm: "left" }}
               color={useColorModeValue("gray.600", "gray.500")}
             >
-              Earn passive $AMULET tokens every second for holding a genesis
+              Earn passive $MAGEC tokens every second for holding a genesis
               Mystic Mage.
             </chakra.p>
             <div
@@ -84,7 +84,7 @@ export default function Token() {
             >
               <Image
                 src="./amulet_potion.png"
-                alt="Amulet Token Potion Graphic"
+                alt="MAGEC Token Potion Graphic"
                 h={150}
                 my={10}
               />
@@ -120,16 +120,7 @@ export default function Token() {
               backgroundImage: backgrounds[finalnum % 4],
             }}
           >
-            <Feature>Email APIs, SMTP Relay, and Webhooks</Feature>
-            <Feature>Suppression Management</Feature>
-            <Feature>Email Tracking and Analytics</Feature>
-            <Feature>99.99% Guaranteed Uptime SLA</Feature>
-            <Feature>5 Days of Log Retention</Feature>
-            <Feature>Limited 24/7 Ticket Support</Feature>
-            <Feature>1 Dedicated IP (Foundation 100k and up)</Feature>
-            <Feature>1,000 Email Address Validations</Feature>
-            <Feature>Host events together or get your event sponsored</Feature>
-            <Feature>Reach 90,000 customers via our integration page</Feature>
+            <Text>Hello</Text>
           </VStack>
         </SimpleGrid>
       </Box>

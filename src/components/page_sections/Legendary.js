@@ -16,8 +16,7 @@ export default function Legendary() {
     `url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='185' viewBox='0 0 560 185' fill='none'%3E%3Cellipse cx='102.633' cy='61.0737' rx='102.633' ry='61.0737' fill='%23ED8936'/%3E%3Cellipse cx='399.573' cy='123.926' rx='102.633' ry='61.0737' fill='%2348BB78'/%3E%3Cellipse cx='366.192' cy='73.2292' rx='193.808' ry='73.2292' fill='%230BC5EA'/%3E%3Cellipse cx='222.705' cy='110.585' rx='193.808' ry='73.2292' fill='%23ED64A6'/%3E%3C/svg%3E")`,
     `url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='560' height='185' viewBox='0 0 560 185' fill='none'%3E%3Cellipse cx='457.367' cy='123.926' rx='102.633' ry='61.0737' transform='rotate(-180 457.367 123.926)' fill='%23ECC94B'/%3E%3Cellipse cx='160.427' cy='61.0737' rx='102.633' ry='61.0737' transform='rotate(-180 160.427 61.0737)' fill='%239F7AEA'/%3E%3Cellipse cx='193.808' cy='111.771' rx='193.808' ry='73.2292' transform='rotate(-180 193.808 111.771)' fill='%234299E1'/%3E%3Cellipse cx='337.295' cy='74.415' rx='193.808' ry='73.2292' transform='rotate(-180 337.295 74.415)' fill='%2348BB78'/%3E%3C/svg%3E")`,
   ];
-  const divArray = document.querySelectorAll('div').length
-  console.log(divArray.length)
+  const divArray = document.querySelectorAll("div").length;
   const num = Math.random() * 10;
   const finalnum = Math.round(num);
   return (
@@ -106,7 +105,7 @@ export default function Legendary() {
               color={useColorModeValue("gray.800", "white")}
               fontWeight="bold"
             >
-              30 Animated Elite Mages
+              10 Animated Elite Mages
             </chakra.h2>
             <chakra.p
               mt={4}
@@ -114,7 +113,7 @@ export default function Legendary() {
               fontSize={{ base: "lg", md: "xl" }}
               color={useColorModeValue("gray.600", "gray.400")}
             >
-              You may be lucky enough to mint an Elite Mage, only 30 have been
+              You may be lucky enough to mint an Elite Mage, only 10 have been
               hand drawn and animated by our talented artist. Each Elite mage
               will yield 3X the daily amount of $AMULET than a regular genesis
               mage.
