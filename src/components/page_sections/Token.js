@@ -84,7 +84,7 @@ export default function Token() {
             >
               <Image
                 src="./amulet_potion.png"
-                alt="MAGEC Token Potion Graphic"
+                alt="Amulet Token Potion Graphic"
                 h={150}
                 my={10}
               />
@@ -120,7 +120,16 @@ export default function Token() {
               backgroundImage: backgrounds[finalnum % 4],
             }}
           >
-            <Text>Hello</Text>
+            <Feature>Email APIs, SMTP Relay, and Webhooks</Feature>
+            <Feature>Suppression Management</Feature>
+            <Feature>Email Tracking and Analytics</Feature>
+            <Feature>99.99% Guaranteed Uptime SLA</Feature>
+            <Feature>5 Days of Log Retention</Feature>
+            <Feature>Limited 24/7 Ticket Support</Feature>
+            <Feature>1 Dedicated IP (Foundation 100k and up)</Feature>
+            <Feature>1,000 Email Address Validations</Feature>
+            <Feature>Host events together or get your event sponsored</Feature>
+            <Feature>Reach 90,000 customers via our integration page</Feature>
           </VStack>
         </SimpleGrid>
       </Box>
