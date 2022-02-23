@@ -21,12 +21,12 @@ export default function Token() {
   const finalnum = Math.round(num);
   const Feature = (props) => {
     return (
-      <Flex>
+      <Flex >
         <Image
           src="./amulet_single.png"
           width={"30px"}
           height={"30px"}
-          margin
+         marginRight={'10px'}
           alt="Amulet Token"
         />
         <chakra.p

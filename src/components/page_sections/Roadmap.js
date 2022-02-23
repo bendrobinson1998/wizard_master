@@ -68,8 +68,10 @@ export default function Roadmap() {
               mx={{ lg: "auto" }}
               color={useColorModeValue("gray.500", "gray.400")}
             >
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+              This is the start of the Mystic Mages NFT journey. We will be
+              releasing 3900 Genesis Mages into Arteria, capable of earning
+              daily $MAGEC tokens. 10 of these will be Elite Mages coming with
+              detailed, animated artwork and yielding higher daily rewards!
             </chakra.p>
           </Box>
 
