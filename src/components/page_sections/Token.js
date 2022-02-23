@@ -120,10 +120,19 @@ export default function Token() {
               backgroundImage: backgrounds[finalnum % 4],
             }}
           >
-            <Feature>Email APIs, SMTP Relay, and Webhooks</Feature>
-            <Feature>Suppression Management</Feature>
-            <Feature>Email Tracking and Analytics</Feature>
-            <Feature>99.99% Guaranteed Uptime SLA</Feature>
+            <chakra.h1>Utility that exists to benefit the holders.</chakra.h1>
+            <Feature>
+              Use $MAGEC to purchase whitelist spots on collections launched
+              through the MysticLaunchpad
+            </Feature>
+            <Feature>
+              Use $MAGEC to receive discounts off future project collaborations
+              mint costs.
+            </Feature>
+            <Feature>
+              Spend $MAGEC on the Arteria Mystery Box to collect custom Sandbox
+              traits for your voxel metaverse avatar.
+            </Feature>
             <Feature>5 Days of Log Retention</Feature>
             <Feature>Limited 24/7 Ticket Support</Feature>
             <Feature>1 Dedicated IP (Foundation 100k and up)</Feature>
