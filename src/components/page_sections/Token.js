@@ -75,7 +75,7 @@ export default function Token() {
               className="token-image"
             >
               <Image
-                src="./amulet_potion.png"
+                src="./potion_cluster.png"
                 alt="Amulet Token Potion Graphic"
                 h={150}
                 my={10}
