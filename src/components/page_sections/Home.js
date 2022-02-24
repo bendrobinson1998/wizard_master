@@ -10,11 +10,13 @@ import Team from "./Team";
 
 import Discord from "./Discord";
 import Launchpad from "./Launchpad";
+import Particle from "../accessories/Particles";
 
 export default function HomePage() {
   return (
     <div className="app">
       <Hero />
+      <Particle />
       <Legendary />
       <Metaverse />
       <Launchpad />
