@@ -72,6 +72,10 @@ body {
 }
 @media only screen and (max-width: 768px) {
   /* mobile only */
+
+  .coming--soon {
+    background-position: right !important;
+  }
   .wiz {
     height: 400px;
     margin-top: -10px;
