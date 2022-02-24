@@ -10,6 +10,7 @@ body,
   padding: 0;
   scroll-behavior: smooth;
   background-color: black;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -114,4 +115,26 @@ body {
 
 .launchpad--input ::placeholder {
   color: "white" !important;
+}
+
+.coming--soon {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-image: url("../public/bavkground_mages.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.coming--soon h1 {
+  font-size: 20px;
+}
+
+.coming--soon--inner {
+  margin-top: -100px;
+
+  text-align: center;
 }

@@ -9,6 +9,7 @@ import Metaverse from "./Metaverse";
 import Team from "./Team";
 
 import Discord from "./Discord";
+import Launchpad from "./Launchpad";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <Hero />
       <Legendary />
       <Metaverse />
+      <Launchpad />
       <Discord />
       <Token />
       <Roadmap />
