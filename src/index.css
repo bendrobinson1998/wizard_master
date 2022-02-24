@@ -72,9 +72,11 @@ body {
 }
 @media only screen and (max-width: 768px) {
   /* mobile only */
-
+  .coming--soon--inner {
+    margin-top: -300px !important;
+  }
   .coming--soon {
-    background-position: right !important;
+    background-position: 20% !important;
   }
   .wiz {
     height: 400px;
@@ -97,7 +99,7 @@ body {
   }
 
   .hero-image {
-    background-position-x: 35% !important;
+    background-position: 20% !important;
   }
   .mint-page {
     max-height: 100vh;
@@ -134,7 +136,8 @@ body {
 }
 
 .coming--soon h1 {
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .coming--soon--inner {

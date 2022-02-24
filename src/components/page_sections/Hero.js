@@ -10,7 +10,7 @@ const Hero = () => {
         className="hero-image"
         w="full"
         h="100vh"
-        backgroundImage="./bavkground_mages.png"
+        backgroundImage="./hero_gif.gif"
         bgPos="center"
         bgSize="cover"
         id="hero"
