@@ -10,12 +10,12 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          {/* <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/mint" element={<Mint />} />
           <Route path="/launchpad" element={<Launchpad />} />
-          <Route path="*" element={<HomePage />} /> */}
-          <Route path="/" element={<ComingSoon />} />
-          <Route path="*" element={<ComingSoon />} />
+          <Route path="*" element={<HomePage />} />
+          {/* <Route path="/" element={<ComingSoon />} />
+          <Route path="*" element={<ComingSoon />} /> */}
         </Routes>
       </BrowserRouter>
     </>

@@ -6,6 +6,7 @@ import {
   useColorModeValue,
   Icon,
   Stack,
+  Button,
 } from "@chakra-ui/react";
 
 export default function Roadmap() {
@@ -78,12 +79,36 @@ export default function Roadmap() {
               mx={{ lg: "auto" }}
               color={useColorModeValue("gray.900")}
             >
-              This is the start of the Mystic Mages NFT journey. We will be
-              releasing 3900 Genesis Mages into Arteria, capable of earning
-              daily $MAGEC tokens. 10 of these will be Elite Mages coming with
-              detailed, hand-drawn animated artwork and yielding higher daily
-              rewards!
+              Below is our roadmap, for any questions please visit our Discord
+              and contact one of the team!
             </chakra.p>
+            <a href="https://discord.gg/zZ4v72xm6N">
+              <Button
+                as="a"
+                className="button-primary"
+                display="inline-flex"
+                alignItems="center"
+                justifyContent="center"
+                w={{ base: "full", sm: "auto" }}
+                size="lg"
+                cursor="pointer"
+                mt={"20px"}
+              >
+                Join Our Discord
+                <Icon
+                  boxSize={4}
+                  ml={1}
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M6.672 1.911a1 1 0 10-1.932.518l.259.966a1 1 0 001.932-.518l-.26-.966zM2.429 4.74a1 1 0 10-.517 1.932l.966.259a1 1 0 00.517-1.932l-.966-.26zm8.814-.569a1 1 0 00-1.415-1.414l-.707.707a1 1 0 101.415 1.415l.707-.708zm-7.071 7.072l.707-.707A1 1 0 003.465 9.12l-.708.707a1 1 0 001.415 1.415zm3.2-5.171a1 1 0 00-1.3 1.3l4 10a1 1 0 001.823.075l1.38-2.759 3.018 3.02a1 1 0 001.414-1.415l-3.019-3.02 2.76-1.379a1 1 0 00-.076-1.822l-10-4z"
+                    clipRule="evenodd"
+                  />
+                </Icon>
+              </Button>
+            </a>{" "}
           </Box>
 
           <Box
@@ -92,8 +117,6 @@ export default function Roadmap() {
             alignItems="center"
             marginTop="80px"
             alignSelf={"center"}
-            justifyContent={"center"}
-            justifyContent={"center"}
             boxShadow={"lg"}
             direction={{ base: "column-reverse", md: "row" }}
             rounded={"xl"}
@@ -136,7 +159,7 @@ export default function Roadmap() {
               >
                 This is the start of the Mystic Mages NFT journey. We will be
                 releasing 3900 Genesis Mages into Arteria capable of earning
-                daily $AMULET tokens. 30 of these Mage's will be elite and will
+                daily $MAGEC tokens. 10 of these Mage's will be elite and will
                 yield higher daily rewards and also come with animated artwork!
               </Feature>
 
@@ -155,7 +178,9 @@ export default function Roadmap() {
                 land, Arteria. Phase 2 of the Mystic roadmap involves rollout of
                 the MysticLaunchpad, affiliate programme and $MAGEC token,
                 allowing Genesis mage holders to collect 0.5ETH for every
-                succesful launchpad referral!
+                succesful launchpad referral! Holders will now be able to
+                utilise their Mages in the metaverse of Arteria and enjoy all
+                the benefits of the $MAGEC token.
               </Feature>
 
               <Feature
@@ -169,9 +194,9 @@ export default function Roadmap() {
                   />
                 }
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Arteria is growing and the Mages need to repopulate and expand.
+                Hold 3 mages to be eligible for a 'Potion' airdrop. Burning one
+                'Potion' will breed a Mystic Witch. Sneak peaks coming soon.
               </Feature>
 
               <Feature
@@ -185,9 +210,12 @@ export default function Roadmap() {
                   />
                 }
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                The Mages have now repopulated in Arteria. The metaverse is
+                booming and daily games and competitions are being held for all
+                mage holders. The Mystic Team will continue to push the
+                marketing efforts and advertising the MysticLaunchpad to give
+                constant exposure to new projects and whitelist spots for all
+                genesis mage holders.
               </Feature>
             </Stack>
           </Box>

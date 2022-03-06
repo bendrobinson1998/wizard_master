@@ -21,12 +21,12 @@ export default function Token() {
   const finalnum = Math.round(num);
   const Feature = (props) => {
     return (
-      <Flex >
+      <Flex>
         <Image
           src="./amulet_single.png"
           width={"30px"}
           height={"30px"}
-         marginRight={'10px'}
+          marginRight={"10px"}
           alt="Amulet Token"
         />
         <chakra.p
@@ -83,7 +83,6 @@ export default function Token() {
             </div>
           </Box>
           <VStack
-            direction="column"
             flexGrow={1}
             spacing={5}
             alignItems="start"
@@ -132,7 +131,6 @@ export default function Token() {
               Spin the Arteria Mystery Box to collect custom Sandbox traits for
               your voxel metaverse avatar using $MAGEC.
             </Feature>
-            <Feature>5 Days of Log Retention</Feature>
           </VStack>
         </SimpleGrid>
       </Box>

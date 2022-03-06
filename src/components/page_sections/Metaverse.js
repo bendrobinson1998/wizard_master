@@ -63,7 +63,6 @@ const Metaverse = (props) => {
         >
           Discover Arteria.
         </chakra.h1>
-
         <chakra.p
           pr={{ base: 0, lg: 16 }}
           mb={4}
@@ -75,19 +74,21 @@ const Metaverse = (props) => {
           entry pass. We will be holding exciting whitelist competitions for
           projects that join through our launchpad here, alongside exciting
           $MAGEC mini games and much more...
-        </chakra.p>
-        <Button
-          color={"white"}
-          bg={"purple.600"}
-          rounded={"lg"}
-          px={6}
-          mt={4}
-          _hover={{
-            bg: "purple.700",
-          }}
-        >
-          Get Started
-        </Button>
+        </chakra.p>{" "}
+        <a href="https://discord.gg/zZ4v72xm6N">
+          <Button
+            color={"white"}
+            bg={"purple.600"}
+            rounded={"lg"}
+            px={6}
+            mt={4}
+            _hover={{
+              bg: "purple.700",
+            }}
+          >
+            Get Started
+          </Button>
+        </a>
       </Flex>
       <Box
         className="wiz"

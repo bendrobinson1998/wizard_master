@@ -42,7 +42,7 @@ export default function Launchpad() {
               color={useColorModeValue("gray.800", "white")}
               fontWeight="bold"
             >
-              3900 Genesis Mystic Mages
+              Next Generation Affiliate Launchpad
             </chakra.h2>
             <chakra.p
               mt={4}
@@ -50,9 +50,12 @@ export default function Launchpad() {
               fontSize={{ base: "lg", md: "xl" }}
               color={useColorModeValue("gray.600", "gray.400")}
             >
-              Mint a Genesis Mystic Mage and reap the rewards of earning daily,
-              passive $MAGEC tokens. The Genesis supply will earn rewards, and
-              the Genesis supply will have access to our Sandbox metaverse.
+              We will be allowing new aspiring collections to utilise our
+              technology stack and launch on the blockchain without any
+              development or coding work, taking all the stress out of the
+              equation. Futhermore, all Genesis Mage holders will be eligible
+              for our affiliate programme, refer to us a collection that wants
+              to launch and if they do, you get 0.5ETH instantly in your wallet!
             </chakra.p>
           </Box>
           <Box
@@ -83,7 +86,7 @@ export default function Launchpad() {
             }}
           >
             <Image
-              src="./genesis_mage_two.png"
+              src="./16.png"
               w="350px"
               alt="Genesis Mystic Mage Preview 1
               "
