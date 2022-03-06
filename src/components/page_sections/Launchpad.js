@@ -42,7 +42,7 @@ export default function Launchpad() {
               color={useColorModeValue("gray.800", "white")}
               fontWeight="bold"
             >
-              Next Generation Affiliate Launchpad
+              The MysticLaunchpad 🧙
             </chakra.h2>
             <chakra.p
               mt={4}
