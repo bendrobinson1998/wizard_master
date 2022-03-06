@@ -86,7 +86,7 @@ const Metaverse = (props) => {
               bg: "purple.700",
             }}
           >
-            Get Started
+            Join Our Discord
           </Button>
         </a>
       </Flex>
