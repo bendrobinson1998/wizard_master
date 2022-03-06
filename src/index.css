@@ -105,7 +105,9 @@ body {
     max-height: 100vh;
   }
 }
-
+.hero-image {
+  z-index: 99999999 !important;
+}
 .mint-page {
   background-repeat: no-repeat;
   background-image: url("../public/background_mages.png");
